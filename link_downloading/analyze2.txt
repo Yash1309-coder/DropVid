@@ -1,0 +1,27 @@
+﻿Analyzing link_downloading...                                   
+
+   info - Parameter 'message' could be a super parameter - lib\core\errors\app_exceptions.dart:80:9 - use_super_parameters
+   info - Use the null-aware marker '?' rather than a null check via an 'if' - lib\presentation\screens\settings\settings_screen.dart:233:13 - use_null_aware_elements
+
+flutter : 2 issues 
+found. (ran in 1.9s)
+At line:1 char:70
++ ... id\link_download
+ing\.dart_tool\ 
+2>$null; flutter 
+analyze 2>&1 | Out-F 
+...
++                     
+                      
+   
+~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo    
+          : NotSpeci  
+  fied: (2 issues f   
+ ound. (ran in 1.9    
+s):String) [], Re    
+moteException
+    + FullyQualifiedE 
+   rrorId : NativeCo  
+  mmandError
+ 

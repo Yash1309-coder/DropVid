@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "surface-container-high": "#1f1f1f",
+                    "surface-tint": "#f9f9f9",
+                    "surface-variant": "#262626",
+                    "on-tertiary-fixed-variant": "#00526b",
+                    "tertiary": "#a0e0ff",
+                    "inverse-on-surface": "#555555",
+                    "error-dim": "#d53d18",
+                    "error": "#ff7351",
+                    "surface-container-lowest": "#000000",
+                    "on-surface": "#ffffff",
+                    "secondary-dim": "#ea8400",
+                    "surface-container-highest": "#262626",
+                    "on-error-container": "#ffd2c8",
+                    "primary-dim": "#ebebeb",
+                    "primary-container": "#a0a1a1",
+                    "tertiary-container": "#81d4fa",
+                    "on-tertiary-container": "#00485e",
+                    "on-surface-variant": "#ababab",
+                    "on-background": "#ffffff",
+                    "surface": "#0e0e0e",
+                    "primary": "#f9f9f9",
+                    "on-primary": "#5e5f60",
+                    "on-primary-fixed": "#434545",
+                    "on-secondary-fixed-variant": "#7a4300",
+                    "secondary-fixed": "#ffc697",
+                    "outline": "#757575",
+                    "error-container": "#b92902",
+                    "tertiary-fixed": "#81d4fa",
+                    "on-tertiary-fixed": "#003343",
+                    "primary-fixed-dim": "#dcdddd",
+                    "inverse-surface": "#f9f9f9",
+                    "background": "#0e0e0e",
+                    "secondary-container": "#8e4e00",
+                    "outline-variant": "#484848",
+                    "primary-fixed": "#ebebeb",
+                    "on-error": "#450900",
+                    "secondary-fixed-dim": "#ffb470",
+                    "tertiary-fixed-dim": "#72c6eb",
+                    "on-secondary-container": "#fff6f1",
+                    "on-primary-fixed-variant": "#5f6161",
+                    "inverse-primary": "#5e5f60",
+                    "on-secondary-fixed": "#512a00",
+                    "secondary": "#fd9000",
+                    "on-primary-container": "#212323",
+                    "tertiary-dim": "#72c6eb",
+                    "surface-container": "#191919",
+                    "surface-container-low": "#131313",
+                    "surface-bright": "#2c2c2c",
+                    "surface-dim": "#0e0e0e",
+                    "on-tertiary": "#00516a",
+                    "on-secondary": "#462400"
+            },
+            "borderRadius": {
+                    "DEFAULT": "1rem",
+                    "lg": "2rem",
+                    "xl": "3rem",
+                    "full": "9999px"
+            },
+            "fontFamily": {
+                    "headline": ["Noto Serif"],
+                    "body": ["Noto Serif"],
+                    "label": ["Plus Jakarta Sans"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        body { background-color: #000000; }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .text-sage { color: #a8bda8; }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+</head>
+<body class="font-body text-on-surface antialiased">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 bg-black/60 backdrop-blur-xl flex justify-between items-center px-6 h-16">
+<button class="flex items-center justify-center p-2 text-sage hover:text-secondary transition-colors duration-300 active:scale-95" style="">
+<span class="material-symbols-outlined" style="">arrow_back</span>
+</button>
+<h1 class="font-serif italic text-2xl tracking-tight text-[#f9f9f9] lowercase tracking-widest" style=""><br/></h1>
+<button class="flex items-center justify-center p-2 text-sage hover:text-secondary transition-colors duration-300 active:scale-95" style="">
+<span class="material-symbols-outlined" style="">ad_off</span>
+</button>
+</header>
+<!-- Main Content: Video List -->
+<main class="pt-24 pb-32 px-6 max-w-3xl mx-auto min-h-screen">
+<div class="flex flex-col space-y-8">
+<!-- List Item 1 -->
+<div class="group flex items-center justify-between p-4 rounded-lg bg-surface-container-low hover:bg-surface-container transition-all duration-300">
+<div class="flex items-center space-x-6">
+<div class="relative w-20 h-20 rounded-lg overflow-hidden flex-shrink-0 bg-surface-variant">
+<img class="w-full h-full object-cover" data-alt="Close-up of a single dark red rose with velvet petals and soft dew drops against a dark moody background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBD6RIrPYVslJLXi3k74d1v-jsIQVQ9JlszelX31C0Xu3R61WC8zdh7aW6QhxwVfe3aXsZflv9mBN4KE_dojaSSR3rEQgJ4wSr891ekgiGazIGcT1N-ZtvogZc5JwbpmsFjOtIF7w5CN_se2cqgSMVB68jZiDTj0TrjJVS48zDN4ExaHOVMYeUVAed6jni-GTGPF65Km1H87LkXsCmjCxN5tODWPXmAriTSsLOXeyH5e316FU2vlfquwkUwWTeoiDC0Zd0ZqIVd5A" style=""/>
+<div class="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors"></div>
+</div>
+<div class="flex flex-col">
+<span class="font-serif italic text-lg text-primary tracking-tight" style="">EJ4YB...mp4</span>
+<span class="font-label text-xs text-on-surface-variant mt-1 tracking-wider" style="">12.4 MB • 02:45</span>
+</div>
+</div>
+<button class="p-2 text-secondary hover:scale-110 active:scale-90 transition-transform" style="">
+<span class="material-symbols-outlined" style="">apps</span>
+</button>
+</div>
+<!-- List Item 2 -->
+<div class="group flex items-center justify-between p-4 rounded-lg bg-surface-container-low hover:bg-surface-container transition-all duration-300">
+<div class="flex items-center space-x-6">
+<div class="relative w-20 h-20 rounded-lg overflow-hidden flex-shrink-0 bg-surface-variant">
+<img class="w-full h-full object-cover" data-alt="Abstract botanical close-up of delicate pink flower petals with ethereal lighting and deep shadows" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAtoVD7rnSEjm3RkmI1H3ZFPeQIEB9QwOhpoGpDe14ksqxTXHqGpwIMOLhnlH06Xx1CNAINk7Q0rfv60UNd2qbNU5nwO_n3XsrxPX612kzHJ4oXoRhWvDt5DAIv2T8_EeWLkHCrv2u_B4L0C4-pEBaqaqztRPydbcFOlyHiJHALMOhxhwmCNkoii8H0qcrO4H0TGg4Sc0KJF_bi5duFvq-GVpTNJcWAx3aLwQLF3jyUF-Vsfbg_Mocc1iVxmnwHqiVTYdHEJAilmg" style=""/>
+<div class="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors"></div>
+</div>
+<div class="flex flex-col">
+<span class="font-serif italic text-lg text-primary tracking-tight" style="">MLCMI...mp4</span>
+<span class="font-label text-xs text-on-surface-variant mt-1 tracking-wider" style="">45.8 MB • 12:10</span>
+</div>
+</div>
+<button class="p-2 text-secondary hover:scale-110 active:scale-90 transition-transform" style="">
+<span class="material-symbols-outlined" style="">apps</span>
+</button>
+</div>
+<!-- List Item 3 -->
+<div class="group flex items-center justify-between p-4 rounded-lg bg-surface-container-low hover:bg-surface-container transition-all duration-300">
+<div class="flex items-center space-x-6">
+<div class="relative w-20 h-20 rounded-lg overflow-hidden flex-shrink-0 bg-surface-variant">
+<img class="w-full h-full object-cover" data-alt="A withered white rose petal resting on a reflective black surface with atmospheric low light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBHufa-vdcLBfkCWlHhgJY_LkutPVNGfngT51OJI1kMxdzHLvwYRgQ2TPt1UEbwAalHNDC-lZbIiG32kkZobcHkj4kQHEHvk1jhDru7DMamtHzkSQK1rlSojTeGyvvrFQnVBVZQtdgrmSKviVYxxG8P2fgwWG2p9beQyY9J2to7Faj0Nfr0S8edd0Wl3Nn_mptG7KqtD11XYGqhQOTMHSv5jwBJIzKShTRDt434sji2ZyB-XmdAYaRvvrACpFsNFKSIvz3vC2Ah8w" style=""/>
+<div class="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors"></div>
+</div>
+<div class="flex flex-col">
+<span class="font-serif italic text-lg text-primary tracking-tight" style="">XVZ91...mp4</span>
+<span class="font-label text-xs text-on-surface-variant mt-1 tracking-wider" style="">8.2 MB • 01:12</span>
+</div>
+</div>
+<button class="p-2 text-secondary hover:scale-110 active:scale-90 transition-transform" style="">
+<span class="material-symbols-outlined" style="">apps</span>
+</button>
+</div>
+<!-- List Item 4 -->
+<div class="group flex items-center justify-between p-4 rounded-lg bg-surface-container-low hover:bg-surface-container transition-all duration-300">
+<div class="flex items-center space-x-6">
+<div class="relative w-20 h-20 rounded-lg overflow-hidden flex-shrink-0 bg-surface-variant">
+<img class="w-full h-full object-cover" data-alt="Artistic bloom of flowers with vibrant orange highlights glowing against a dark cosmic void" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCt3uhqxCP6Jx6HdR5xWLax7tktdfo3b8UZ9nPLwhf1ZiH6XmWZ-Fq6E5pAf2zjOFrd9wWB6fAxwvdLgDcSsdsQ1O7aodKG_LJH-1yLNj9odPE6Fh5w79lLOqy7OpMLfUCGVNMFvw316QWu2Ww5ONKnzq7De11gubIcS6hAKR_9PVho08-ZrBScnCH3JAyX2zmaTf6HwsToYePIIft_pojdsPRxfXc9BC1d_ASQQTxzgPu3eL5wT-uxYyWLxAnhsYejAPqeAK3kIg" style=""/>
+<div class="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors"></div>
+</div>
+<div class="flex flex-col">
+<span class="font-serif italic text-lg text-primary tracking-tight" style="">KOPL3...mp4</span>
+<span class="font-label text-xs text-on-surface-variant mt-1 tracking-wider" style="">124.0 MB • 34:05</span>
+</div>
+</div>
+<button class="p-2 text-secondary hover:scale-110 active:scale-90 transition-transform" style="">
+<span class="material-symbols-outlined" style="">apps</span>
+</button>
+</div>
+<!-- List Item 5 -->
+<div class="group flex items-center justify-between p-4 rounded-lg bg-surface-container-low hover:bg-surface-container transition-all duration-300">
+<div class="flex items-center space-x-6">
+<div class="relative w-20 h-20 rounded-lg overflow-hidden flex-shrink-0 bg-surface-variant">
+<img class="w-full h-full object-cover" data-alt="Moody dark floral arrangement featuring dried roses and deep green leaves with cinematic shadows" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCDFhDRFtiK6SdDpAQkTDRitaG-uO3G2uDVS56aZf-JfI473u_J22TJHCVwQvjXMgFMr-nj2jbD45uw7EudXnF0Q837SogEO9z_GWPj-8jz9BCZXUj2K4inG9A1S7gxYA9l_8XoCijARmp5QmAH2WFJv5WdTZt_m64hfcISWhY0pXHRorCrmRHqNeNtBMjSFZDs4KtNrtjfMrv6B-FEdoxxvMX7_cZTeK1bT8StV77Bkkdy2Hl6tEnPSpqJ16OSlyQQGxZ1vtjgcw" style=""/>
+<div class="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors"></div>
+</div>
+<div class="flex flex-col">
+<span class="font-serif italic text-lg text-primary tracking-tight" style="">BNM2Q...mp4</span>
+<span class="font-label text-xs text-on-surface-variant mt-1 tracking-wider" style="">3.1 MB • 00:22</span>
+</div>
+</div>
+<button class="p-2 text-secondary hover:scale-110 active:scale-90 transition-transform" style="">
+<span class="material-symbols-outlined" style="">apps</span>
+</button>
+</div>
+</div>
+</main>
+<!-- BottomNavBar -->
+<nav class="fixed bottom-0 w-full z-50 pb-safe bg-black/60 backdrop-blur-xl flex justify-around items-center h-20 px-8">
+<a class="flex flex-col items-center justify-center text-[#a8bda8] hover:text-[#f9f9f9] transition-all" href="#" style="">
+<span class="material-symbols-outlined" style="">home</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#a8bda8] hover:text-[#f9f9f9] transition-all" href="#" style="">
+<span class="material-symbols-outlined" style="">download_for_offline</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#fd9000] scale-110" href="#" style="">
+<span class="material-symbols-outlined" style='font-variation-settings: "FILL" 1;'>video_library</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#a8bda8] hover:text-[#f9f9f9] transition-all" href="#" style="">
+<span class="material-symbols-outlined" style="">person</span>
+</a>
+</nav>
+</body></html>

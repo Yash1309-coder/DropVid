@@ -1,0 +1,30 @@
+﻿Analyzing link_downloading...                                   
+
+   info - Parameter 'message' could be a super parameter - lib\core\errors\app_exceptions.dart:80:9 - use_super_parameters
+   info - Dangling library doc comment - lib\domain\repositories\download_repository.dart:1:1 - dangling_library_doc_comments
+   info - Dangling library doc comment - lib\domain\repositories\settings_repository.dart:1:1 - dangling_library_doc_comments
+  error - The name 'SystemUIOverlayStyle' isn't a class - lib\main.dart:23:11 - creation_with_non_type
+   info - Unnecessary use of multiple underscores - lib\presentation\screens\history\history_screen.dart:54:47 - unnecessary_underscores
+   info - 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre - lib\presentation\screens\settings\settings_screen.dart:52:21 - deprecated_member_use
+   info - Unnecessary use of multiple underscores - lib\presentation\screens\settings\settings_screen.dart:75:32 - unnecessary_underscores
+   info - Use the null-aware marker '?' rather than a null check via an 'if' - lib\presentation\screens\settings\settings_screen.dart:233:13 - use_null_aware_elements
+
+flutter : 8 issues 
+found. (ran in 1.9s)
+At line:1 char:1
++ flutter analyze 
+2>&1 | Out-File 
+-FilePath 
+analyze_output.txt 
+-Encodin ...
++ ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo    
+          : NotSpeci  
+  fied: (8 issues f   
+ ound. (ran in 1.9    
+s):String) [], Re    
+moteException
+    + FullyQualifiedE 
+   rrorId : NativeCo  
+  mmandError
+ 

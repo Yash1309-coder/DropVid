@@ -1,0 +1,71 @@
+
+
+services:
+  # ─── Redis ─────────────────────────────────────────────
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    command: redis-server --appendonly yes --maxmemory 256mb --maxmemory-policy allkeys-lru
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+    restart: unless-stopped
+
+  # ─── API Server ────────────────────────────────────────
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile.api
+    ports:
+      - "8000:8000"
+    volumes:
+      - downloads:/app/downloads
+    environment:
+      - REDIS_URL=redis://redis:6379/0
+      - DOWNLOAD_DIR=/app/downloads
+      - MAX_FILE_AGE_HOURS=24
+      - RATE_LIMIT_PER_MINUTE=10
+    depends_on:
+      redis:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    restart: unless-stopped
+
+  # ─── Celery Worker ────────────────────────────────────
+  worker:
+    build:
+      context: .
+      dockerfile: Dockerfile.worker
+    volumes:
+      - downloads:/app/downloads
+    environment:
+      - REDIS_URL=redis://redis:6379/0
+      - DOWNLOAD_DIR=/app/downloads
+      - MAX_FILE_AGE_HOURS=24
+      - CELERY_CONCURRENCY=4
+      - MAX_RETRIES=3
+    depends_on:
+      redis:
+        condition: service_healthy
+    restart: unless-stopped
+    # Scale workers: docker-compose up --scale worker=3
+    deploy:
+      resources:
+        limits:
+          memory: 1G
+        reservations:
+          memory: 256M
+
+volumes:
+  redis_data:
+  downloads:

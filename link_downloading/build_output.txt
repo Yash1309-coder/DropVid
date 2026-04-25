@@ -1,0 +1,28 @@
+﻿Downloading android-arm-profile/windows-x64 tools...                4.3s
+Downloading android-arm-release/windows-x64 tools...             1,735ms
+Downloading android-arm64-profile/windows-x64 tools...           1,404ms
+Downloading android-arm64-release/windows-x64 tools...           1,052ms
+Downloading android-x64-profile/windows-x64 tools...               947ms
+Downloading android-x64-release/windows-x64 tools...               845ms
+flutter : [!] No 
+Android SDK found. 
+Try setting the 
+ANDROID_HOME 
+environment variable.
+At line:1 char:1
++ flutter build apk 
+--debug 2>&1 | 
+Out-File -FilePath 
+d:\DropVid\link_d ...
++ ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~
+    + CategoryInfo    
+          : NotSpeci  
+  fied: ([!] No And   
+ roid ...nment var    
+iable.:String) []    
+, RemoteException
+    + FullyQualifiedE 
+   rrorId : NativeCo  
+  mmandError
+ 

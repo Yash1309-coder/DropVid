@@ -1,0 +1,1037 @@
+﻿Launching lib\main.dart on 2409FPCC4I in debug mode...
+Running Gradle task 'assembleDebug'...                          
+flutter : warning: [options] source value 8 is obsolete and will be removed in a future release
+At line:1 char:65
++ ... s\Android\Android Studio\jbr"; flutter run -d 2409FPCC4I 2>&1 | Out-F ...
++                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (warning: [optio... future release:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+warning: [options] target value 8 is obsolete and will be removed in a future release
+warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+3 warnings
+warning: [options] source value 8 is obsolete and will be removed in a future release
+warning: [options] target value 8 is obsolete and will be removed in a future release
+warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+3 warnings
+warning: [options] source value 8 is obsolete and will be removed in a future release
+warning: [options] target value 8 is obsolete and will be removed in a future release
+warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+3 warnings
+Checking the license for package CMake 3.22.1 in C:\Users\yagga\AppData\Local\Android\Sdk\licenses
+License for package CMake 3.22.1 accepted.
+Preparing "Install CMake 3.22.1 v.3.22.1".
+"Install CMake 3.22.1 v.3.22.1" ready.
+Installing CMake 3.22.1 in C:\Users\yagga\AppData\Local\Android\Sdk\cmake\3.22.1
+"Install CMake 3.22.1 v.3.22.1" complete.
+"Install CMake 3.22.1 v.3.22.1" finished.
+Running Gradle task 'assembleDebug'...                            571.2s
+ΓêÜ Built build\app\outputs\flutter-apk\app-debug.apk
+Installing build\app\outputs\flutter-apk\app-debug.apk...           9.8s
+I/flutter ( 6255): [IMPORTANT:flutter/shell/platform/android/android_context_vk_impeller.cc(62)] Using the Impeller rendering backend (Vulkan).
+I/flutter ( 6255): Γ£à SharedPreferences ready
+I/flutter ( 6255): DEBUG: accessToken st startup = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OWQwM2NhMjE4M2RjZTdjYjI2ZjBhNjEiLCJpYXQiOjE3NzUyNTQ3NDQsImV4cCI6MTc3NTg1OTU0NH0.UX_uLZfFSN9aFTbrZ3iD7B11gJxvvnrZ64laZUwiU08
+I/flutter ( 6255): ≡ƒÜÇ [INIT] Starting Unjob App Initialization...
+I/flutter ( 6255): MetaEvents.init() called
+I/flutter ( 6255): Γ£à [INIT] MetaEvents initialized
+I/flutter ( 6255): Meta Event Triggered: App Open
+I/flutter ( 6255): Γ£à Cache cleanup completed (older than 24 hours removed)
+I/flutter ( 6255): ≡ƒº╣ [CACHE] Cleared default cache successfully
+I/flutter ( 6255): [ShorebirdCodePush]: Shorebird Engine not available, using no-op implementation.
+I/flutter ( 6255): This occurs when using package:shorebird_code_push in an app that does not
+I/flutter ( 6255): contain the Shorebird Engine. Most commonly this is due to building with
+I/flutter ( 6255): `flutter build` or `flutter run` instead of `shorebird release`.
+I/flutter ( 6255): ≡ƒôª [SHOREBIRD] Current patch number: null
+I/flutter ( 6255): ≡ƒºá [CACHE] Image memory cache configured (100MB)
+I/flutter ( 6255): ≡ƒÆ╛ [CACHE] Disk cache manager initialized
+I/flutter ( 6255): Γ£à [FIREBASE] Firebase initialized successfully
+I/flutter ( 6255): ≡ƒöæ [AUTH] Token: true, Role: freelancer
+I/flutter ( 6255): Meta Event Triggered: App Open
+I/flutter ( 6255): ≡ƒö╣ Player ID: ace656b1-de12-4f48-a44c-9111fc7d60a0
+I/flutter ( 6255): ≡ƒö╣ Token: fqW1Vzp1TDSzRSuQcGFSBU:APA91bEozr15OC8Y-if-ae5pZqrfMtNNfo8WzbD6FKbmcOaqPPO9JKAKDXsyLGlGUXPtrK5wiBsu2LZeQT8bO-I8f-HhGTM0BLq9_hjvX-sDR-HL5OeQnBM
+I/flutter ( 6255): ≡ƒö╣ Opted In (Subscribed): true
+I/flutter ( 6255): ≡ƒÜÇ Starting updateMobileDeviceId()
+I/flutter ( 6255): ≡ƒöì Fetching OneSignal device ID...
+I/flutter ( 6255): API URL: https://unjob.ai/api/posts?page=1&limit=50&sort=-createdAt&postType=post
+I/flutter ( 6255): Initializing tutorial targets...
+I/flutter ( 6255): ≡ƒô▒ OneSignal raw response: ace656b1-de12-4f48-a44c-9111fc7d60a0
+I/flutter ( 6255): Γ£à OneSignal Device ID: ace656b1-de12-4f48-a44c-9111fc7d60a0
+I/flutter ( 6255): ≡ƒîÉ API Endpoint: https://unjob.ai/api/user/mobile-id
+I/flutter ( 6255): ≡ƒöæ Fetching access token from SharedPreferences...
+I/flutter ( 6255): Γ£à Access token retrieved successfully (length: 176)
+I/flutter ( 6255): ≡ƒôª Request Body: {"mobileId":"ace656b1-de12-4f48-a44c-9111fc7d60a0"}
+I/flutter ( 6255): ≡ƒôñ Sending PATCH request to backend...
+I/flutter ( 6255): role is freelancer
+I/flutter ( 6255): ≡ƒÆ╛ [ONESIGNAL] Device ID saved: ace656b1-de12-4f48-a44c-9111fc7d60a0
+I/flutter ( 6255): ≡ƒôÑ Received response from server:
+I/flutter ( 6255): Γ₧í∩╕Å Status Code: 200
+I/flutter ( 6255): Γ₧í∩╕Å Response Body: {"status":200,"success":true,"data":{"mobileId":"ace656b1-de12-4f48-a44c-9111fc7d60a0","user":{"notificationPreferences":{"email":{"postLikes":true,"postComments":true,"newFollowers":true,"gigApplications":true,"gigInvitations":true,"projectSubmissions":true,"projectReviews":true,"payments":true,"subscriptions":true,"deadlineReminders":true},"push":{"postLikes":true,"postComments":true,"newFollowers":true,"gigApplications":true,"gigInvitations":true,"projectSubmissions":true,"projectReviews":false,"payments":true,"subscriptions":true,"deadlineReminders":true}},"preferences":{"emailNotifications":true,"pushNotifications":true},"privacy":{"profileVisibility":"public","showEmail":false,"showPhone":false},"freeGigUsage":{"used":0,"limit":3,"lastUpdated":"2026-04-03T22:18:10.694Z"},"freeApplicationsUsage":{"remaining":10,"limit":10,"lastUpdated":"2026-04-03T22:18:10.694Z"},"freeJobPostsUsage":{"used":0,"limit":1,"lastUpdated":"2026-04-03T22:18:10.694Z"},"_id":"69d03ca2183dce7cb26f0a61","name
+I/flutter ( 6255): Γ₧í∩╕Å Headers: {x-dns-prefetch-control: off, ratelimit-limit: 1000, transfer-encoding: chunked, date: Sat, 04 Apr 2026 00:07:20 GMT, x-amz-cf-pop: PNQ50-P1, content-encoding: gzip, origin-agent-cluster: ?1, vary: Origin, Accept-Encoding, access-control-expose-headers: X-Total-Count,X-Page-Count,X-Current-Page,X-Per-Page,Link, pragma: no-cache, ratelimit-remaining: 999, server: nginx/1.25.5, ratelimit-policy: 1000;w=900, cross-origin-resource-policy: same-origin, etag: W/"d48-y0nijh6qTL5pqBY/zDa2AdpvIzI", x-frame-options: SAMEORIGIN, content-security-policy: default-src 'self';style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;script-src 'self' https://checkout.razorpay.com https://js.stripe.com;img-src 'self' data: https: https://res.cloudinary.com;connect-src 'self' https://api.razorpay.com http://localhost:3001 https://unjob.ai https://testserver.unjob.ai https://unjob.in;font-src 'self' https://fonts.gstatic.com;object-src 'none';media-src 'self';frame-src 'self' https://checkout.razorpay.com;
+I/flutter ( 6255): Γ£à Device ID updated successfully: ace656b1-de12-4f48-a44c-9111fc7d60a0
+I/flutter ( 6255): ≡ƒÅü Finished updateMobileDeviceId()
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 1920 x 1080
+I/flutter ( 6255): CacheManager: Failed to download file from null with error:
+I/flutter ( 6255): Invalid argument(s): No host specified in URI null
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 1080 x 1920
+I/flutter ( 6255): CacheManager: Failed to download file from null with error:
+I/flutter ( 6255): Invalid argument(s): No host specified in URI null
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 900 x 720
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 1280 x 720
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 2160 x 2160
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): CacheManager: Failed to download file from null with error:
+I/flutter ( 6255): Invalid argument(s): No host specified in URI null
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 1080 x 1920
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): CacheManager: Failed to download file from null with error:
+I/flutter ( 6255): Invalid argument(s): No host specified in URI null
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): API URL: https://unjob.ai/api/posts?page=2&limit=50&sort=-createdAt&postType=post
+I/flutter ( 6255): VIDEO SIZE => 2160 x 2160
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 1080 x 1920
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 1080 x 1920
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): VIDEO SIZE => 0 x 0
+I/flutter ( 6255): Initializing tutorial targets...
+I/flutter ( 6255): ≡ƒÜÇ [FreeStats] API Call Started
+I/flutter ( 6255): Γ₧í∩╕Å [FreeStats] URL: https://unjob.ai/api/applications/free-stats
+I/flutter ( 6255): Γ₧í∩╕Å [FreeStats] Token present: true
+I/flutter ( 6255): Role fetched is: freelancer
+I/flutter ( 6255): Γ¼à∩╕Å [FreeStats] Status Code: 200
+I/flutter ( 6255): Γ¼à∩╕Å [FreeStats] Raw Response: {"status":200,"success":true,"data":{"hasSubscription":false,"planType":"free","remaining":10,"maxApplications":10,"lastUpdated":"2026-04-03T22:18:10.694Z","resetInfo":{"resetsMonthly":true,"nextResetDate":"2026-05-01T00:00:00.000Z"}},"message":"Free application stats retrieved"}
+I/flutter ( 6255): Γ£à [FreeStats] Decoded JSON: {status: 200, success: true, data: {hasSubscription: false, planType: free, remaining: 10, maxApplications: 10, lastUpdated: 2026-04-03T22:18:10.694Z, resetInfo: {resetsMonthly: true, nextResetDate: 2026-05-01T00:00:00.000Z}}, message: Free application stats retrieved}
+I/flutter ( 6255): ≡ƒÄ» [FreeStats] success = true
+I/flutter ( 6255): ≡ƒôª [FreeStats] Data: {hasSubscription: false, planType: free, remaining: 10, maxApplications: 10, lastUpdated: 2026-04-03T22:18:10.694Z, resetInfo: {resetsMonthly: true, nextResetDate: 2026-05-01T00:00:00.000Z}}
+I/flutter ( 6255): ≡ƒôè [FreeStats] Parsed Stats ΓåÆ used=0, remaining=10, max=10, plan=free
+I/flutter ( 6255): fetching gigs from https://unjob.ai/api/gigs?page=1&limit=12&sort=newest&status=active
+I/flutter ( 6255): fre stats is 10
+I/flutter ( 6255): role is freelancer
+I/flutter ( 6255): ≡ƒƒí Raw subscriptionPlan: null
+I/flutter ( 6255): ≡ƒƒí Normalized plan: null
+I/flutter ( 6255): ≡ƒƒó Is Paid Plan? false
+I/flutter ( 6255): ≡ƒö╡ Is Enterprise Plan? false
+I/flutter ( 6255): ≡ƒƒú Final Badge URL: null
+I/flutter ( 6255): role is freelancer
+I/flutter ( 6255): ≡ƒƒí Raw subscriptionPlan: null
+I/flutter ( 6255): ≡ƒƒí Normalized plan: null
+I/flutter ( 6255): ≡ƒƒó Is Paid Plan? false
+I/flutter ( 6255): ≡ƒö╡ Is Enterprise Plan? false
+I/flutter ( 6255): ≡ƒƒú Final Badge URL: null
+I/flutter ( 6255): role is freelancer
+I/flutter ( 6255): ≡ƒƒí Raw subscriptionPlan: null
+I/flutter ( 6255): ≡ƒƒí Normalized plan: null
+I/flutter ( 6255): ≡ƒƒó Is Paid Plan? false
+I/flutter ( 6255): ≡ƒö╡ Is Enterprise Plan? false
+I/flutter ( 6255): ≡ƒƒú Final Badge URL: null
+I/flutter ( 6255): CacheManager: Failed to download file from null with error:
+I/flutter ( 6255): Invalid argument(s): No host specified in URI null
+I/flutter ( 6255): role is freelancer
+I/flutter ( 6255): ≡ƒƒí Raw subscriptionPlan: null
+I/flutter ( 6255): ≡ƒƒí Normalized plan: null
+I/flutter ( 6255): ≡ƒƒó Is Paid Plan? false
+I/flutter ( 6255): ≡ƒö╡ Is Enterprise Plan? false
+I/flutter ( 6255): ≡ƒƒú Final Badge URL: null
+I/flutter ( 6255): role is freelancer
+I/flutter ( 6255): ≡ƒƒí Raw subscriptionPlan: null
+I/flutter ( 6255): ≡ƒƒí Normalized plan: null
+I/flutter ( 6255): ≡ƒƒó Is Paid Plan? false
+I/flutter ( 6255): ≡ƒö╡ Is Enterprise Plan? false
+I/flutter ( 6255): ≡ƒƒú Final Badge URL: null
+I/flutter ( 6255): role is freelancer
+I/flutter ( 6255): ≡ƒƒí Raw subscriptionPlan: null
+I/flutter ( 6255): ≡ƒƒí Normalized plan: null
+I/flutter ( 6255): ≡ƒƒó Is Paid Plan? false
+I/flutter ( 6255): ≡ƒö╡ Is Enterprise Plan? false
+I/flutter ( 6255): ≡ƒƒú Final Badge URL: null
+I/flutter ( 6255): role is freelancer
+I/flutter ( 6255): ≡ƒƒí Raw subscriptionPlan: null
+I/flutter ( 6255): ≡ƒƒí Normalized plan: null
+I/flutter ( 6255): ≡ƒƒó Is Paid Plan? false
+I/flutter ( 6255): ≡ƒö╡ Is Enterprise Plan? false
+I/flutter ( 6255): ≡ƒƒú Final Badge URL: null
+I/flutter ( 6255): role is freelancer
+I/flutter ( 6255): ≡ƒƒí Raw subscriptionPlan: growth
+I/flutter ( 6255): ≡ƒƒí Normalized plan: growth
+I/flutter ( 6255): ≡ƒƒó Is Paid Plan? true
+I/flutter ( 6255): ≡ƒö╡ Is Enterprise Plan? false
+I/flutter ( 6255): ≡ƒƒú Final Badge URL: https://cdn.unjob.ai/dev/posts/images-1772098344492-838972783-Frame__1_.svg
+E/AndroidRuntime(13652): FATAL EXCEPTION: main
+E/AndroidRuntime(13652): Process: com.dropvid.app, PID: 13652
+E/AndroidRuntime(13652): java.lang.RuntimeException: Unable to instantiate activity ComponentInfo{com.dropvid.app/com.dropvid.app.MainActivity}: java.lang.ClassNotFoundException: Didn't find class "com.dropvid.app.MainActivity" on path: DexPathList[[zip file "/data/app/~~2-CkOjA8t9H1vCs2tWiEDQ==/com.dropvid.app-86ltc8rEuIri9X19nylWpg==/base.apk"],nativeLibraryDirectories=[/data/app/~~2-CkOjA8t9H1vCs2tWiEDQ==/com.dropvid.app-86ltc8rEuIri9X19nylWpg==/lib/arm64, /data/app/~~2-CkOjA8t9H1vCs2tWiEDQ==/com.dropvid.app-86ltc8rEuIri9X19nylWpg==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+E/AndroidRuntime(13652): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4603)
+E/AndroidRuntime(13652): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4932)
+E/AndroidRuntime(13652): 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:222)
+E/AndroidRuntime(13652): 	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:136)
+E/AndroidRuntime(13652): 	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:106)
+E/AndroidRuntime(13652): 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:83)
+E/AndroidRuntime(13652): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:3085)
+E/AndroidRuntime(13652): 	at android.os.Handler.dispatchMessage(Handler.java:110)
+E/AndroidRuntime(13652): 	at android.os.Looper.loopOnce(Looper.java:267)
+E/AndroidRuntime(13652): 	at android.os.Looper.loop(Looper.java:360)
+E/AndroidRuntime(13652): 	at android.app.ActivityThread.main(ActivityThread.java:10054)
+E/AndroidRuntime(13652): 	at java.lang.reflect.Method.invoke(Native Method)
+E/AndroidRuntime(13652): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:616)
+E/AndroidRuntime(13652): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1115)
+E/AndroidRuntime(13652): Caused by: java.lang.ClassNotFoundException: Didn't find class "com.dropvid.app.MainActivity" on path: DexPathList[[zip file "/data/app/~~2-CkOjA8t9H1vCs2tWiEDQ==/com.dropvid.app-86ltc8rEuIri9X19nylWpg==/base.apk"],nativeLibraryDirectories=[/data/app/~~2-CkOjA8t9H1vCs2tWiEDQ==/com.dropvid.app-86ltc8rEuIri9X19nylWpg==/lib/arm64, /data/app/~~2-CkOjA8t9H1vCs2tWiEDQ==/com.dropvid.app-86ltc8rEuIri9X19nylWpg==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+E/AndroidRuntime(13652): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:259)
+E/AndroidRuntime(13652): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:642)
+E/AndroidRuntime(13652): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:578)
+E/AndroidRuntime(13652): 	at android.app.AppComponentFactory.instantiateActivity(AppComponentFactory.java:95)
+E/AndroidRuntime(13652): 	at androidx.core.app.CoreComponentFactory.instantiateActivity(CoreComponentFactory.java:44)
+E/AndroidRuntime(13652): 	at android.app.Instrumentation.newActivity(Instrumentation.java:1456)
+E/AndroidRuntime(13652): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4587)
+E/AndroidRuntime(13652): 	... 13 more
+E/AndroidRuntime(14949): FATAL EXCEPTION: main
+E/AndroidRuntime(14949): Process: com.dropvid.app, PID: 14949
+E/AndroidRuntime(14949): java.lang.RuntimeException: Unable to instantiate activity ComponentInfo{com.dropvid.app/com.dropvid.app.MainActivity}: java.lang.ClassNotFoundException: Didn't find class "com.dropvid.app.MainActivity" on path: DexPathList[[zip file "/data/app/~~2-CkOjA8t9H1vCs2tWiEDQ==/com.dropvid.app-86ltc8rEuIri9X19nylWpg==/base.apk"],nativeLibraryDirectories=[/data/app/~~2-CkOjA8t9H1vCs2tWiEDQ==/com.dropvid.app-86ltc8rEuIri9X19nylWpg==/lib/arm64, /data/app/~~2-CkOjA8t9H1vCs2tWiEDQ==/com.dropvid.app-86ltc8rEuIri9X19nylWpg==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+E/AndroidRuntime(14949): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4603)
+E/AndroidRuntime(14949): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4932)
+E/AndroidRuntime(14949): 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:222)
+E/AndroidRuntime(14949): 	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:136)
+E/AndroidRuntime(14949): 	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:106)
+E/AndroidRuntime(14949): 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:83)
+E/AndroidRuntime(14949): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:3085)
+E/AndroidRuntime(14949): 	at android.os.Handler.dispatchMessage(Handler.java:110)
+E/AndroidRuntime(14949): 	at android.os.Looper.loopOnce(Looper.java:267)
+E/AndroidRuntime(14949): 	at android.os.Looper.loop(Looper.java:360)
+E/AndroidRuntime(14949): 	at android.app.ActivityThread.main(ActivityThread.java:10054)
+E/AndroidRuntime(14949): 	at java.lang.reflect.Method.invoke(Native Method)
+E/AndroidRuntime(14949): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:616)
+E/AndroidRuntime(14949): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1115)
+E/AndroidRuntime(14949): Caused by: java.lang.ClassNotFoundException: Didn't find class "com.dropvid.app.MainActivity" on path: DexPathList[[zip file "/data/app/~~2-CkOjA8t9H1vCs2tWiEDQ==/com.dropvid.app-86ltc8rEuIri9X19nylWpg==/base.apk"],nativeLibraryDirectories=[/data/app/~~2-CkOjA8t9H1vCs2tWiEDQ==/com.dropvid.app-86ltc8rEuIri9X19nylWpg==/lib/arm64, /data/app/~~2-CkOjA8t9H1vCs2tWiEDQ==/com.dropvid.app-86ltc8rEuIri9X19nylWpg==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+E/AndroidRuntime(14949): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:259)
+E/AndroidRuntime(14949): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:642)
+E/AndroidRuntime(14949): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:578)
+E/AndroidRuntime(14949): 	at android.app.AppComponentFactory.instantiateActivity(AppComponentFactory.java:95)
+E/AndroidRuntime(14949): 	at androidx.core.app.CoreComponentFactory.instantiateActivity(CoreComponentFactory.java:44)
+E/AndroidRuntime(14949): 	at android.app.Instrumentation.newActivity(Instrumentation.java:1456)
+E/AndroidRuntime(14949): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4587)
+E/AndroidRuntime(14949): 	... 13 more
+E/AndroidRuntime(17416): FATAL EXCEPTION: main
+E/AndroidRuntime(17416): Process: com.dropvid.app, PID: 17416
+E/AndroidRuntime(17416): java.lang.RuntimeException: Unable to instantiate activity ComponentInfo{com.dropvid.app/com.dropvid.app.MainActivity}: java.lang.ClassNotFoundException: Didn't find class "com.dropvid.app.MainActivity" on path: DexPathList[[zip file "/data/app/~~k2CYZAdg4plVtpMPU3RRgg==/com.dropvid.app-mPPZVC7oY1Yrgkt5TFSV7w==/base.apk"],nativeLibraryDirectories=[/data/app/~~k2CYZAdg4plVtpMPU3RRgg==/com.dropvid.app-mPPZVC7oY1Yrgkt5TFSV7w==/lib/arm64, /data/app/~~k2CYZAdg4plVtpMPU3RRgg==/com.dropvid.app-mPPZVC7oY1Yrgkt5TFSV7w==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+E/AndroidRuntime(17416): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4603)
+E/AndroidRuntime(17416): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4932)
+E/AndroidRuntime(17416): 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:222)
+E/AndroidRuntime(17416): 	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:136)
+E/AndroidRuntime(17416): 	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:106)
+E/AndroidRuntime(17416): 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:83)
+E/AndroidRuntime(17416): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:3085)
+E/AndroidRuntime(17416): 	at android.os.Handler.dispatchMessage(Handler.java:110)
+E/AndroidRuntime(17416): 	at android.os.Looper.loopOnce(Looper.java:267)
+E/AndroidRuntime(17416): 	at android.os.Looper.loop(Looper.java:360)
+E/AndroidRuntime(17416): 	at android.app.ActivityThread.main(ActivityThread.java:10054)
+E/AndroidRuntime(17416): 	at java.lang.reflect.Method.invoke(Native Method)
+E/AndroidRuntime(17416): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:616)
+E/AndroidRuntime(17416): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1115)
+E/AndroidRuntime(17416): Caused by: java.lang.ClassNotFoundException: Didn't find class "com.dropvid.app.MainActivity" on path: DexPathList[[zip file "/data/app/~~k2CYZAdg4plVtpMPU3RRgg==/com.dropvid.app-mPPZVC7oY1Yrgkt5TFSV7w==/base.apk"],nativeLibraryDirectories=[/data/app/~~k2CYZAdg4plVtpMPU3RRgg==/com.dropvid.app-mPPZVC7oY1Yrgkt5TFSV7w==/lib/arm64, /data/app/~~k2CYZAdg4plVtpMPU3RRgg==/com.dropvid.app-mPPZVC7oY1Yrgkt5TFSV7w==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+E/AndroidRuntime(17416): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:259)
+E/AndroidRuntime(17416): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:642)
+E/AndroidRuntime(17416): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:578)
+E/AndroidRuntime(17416): 	at android.app.AppComponentFactory.instantiateActivity(AppComponentFactory.java:95)
+E/AndroidRuntime(17416): 	at androidx.core.app.CoreComponentFactory.instantiateActivity(CoreComponentFactory.java:44)
+E/AndroidRuntime(17416): 	at android.app.Instrumentation.newActivity(Instrumentation.java:1456)
+E/AndroidRuntime(17416): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4587)
+E/AndroidRuntime(17416): 	... 13 more
+E/AndroidRuntime(18189): FATAL EXCEPTION: main
+E/AndroidRuntime(18189): Process: com.dropvid.app, PID: 18189
+E/AndroidRuntime(18189): java.lang.RuntimeException: Unable to instantiate activity ComponentInfo{com.dropvid.app/com.dropvid.app.MainActivity}: java.lang.ClassNotFoundException: Didn't find class "com.dropvid.app.MainActivity" on path: DexPathList[[zip file "/data/app/~~k2CYZAdg4plVtpMPU3RRgg==/com.dropvid.app-mPPZVC7oY1Yrgkt5TFSV7w==/base.apk"],nativeLibraryDirectories=[/data/app/~~k2CYZAdg4plVtpMPU3RRgg==/com.dropvid.app-mPPZVC7oY1Yrgkt5TFSV7w==/lib/arm64, /data/app/~~k2CYZAdg4plVtpMPU3RRgg==/com.dropvid.app-mPPZVC7oY1Yrgkt5TFSV7w==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+E/AndroidRuntime(18189): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4603)
+E/AndroidRuntime(18189): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4932)
+E/AndroidRuntime(18189): 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:222)
+E/AndroidRuntime(18189): 	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:136)
+E/AndroidRuntime(18189): 	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:106)
+E/AndroidRuntime(18189): 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:83)
+E/AndroidRuntime(18189): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:3085)
+E/AndroidRuntime(18189): 	at android.os.Handler.dispatchMessage(Handler.java:110)
+E/AndroidRuntime(18189): 	at android.os.Looper.loopOnce(Looper.java:267)
+E/AndroidRuntime(18189): 	at android.os.Looper.loop(Looper.java:360)
+E/AndroidRuntime(18189): 	at android.app.ActivityThread.main(ActivityThread.java:10054)
+E/AndroidRuntime(18189): 	at java.lang.reflect.Method.invoke(Native Method)
+E/AndroidRuntime(18189): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:616)
+E/AndroidRuntime(18189): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1115)
+E/AndroidRuntime(18189): Caused by: java.lang.ClassNotFoundException: Didn't find class "com.dropvid.app.MainActivity" on path: DexPathList[[zip file "/data/app/~~k2CYZAdg4plVtpMPU3RRgg==/com.dropvid.app-mPPZVC7oY1Yrgkt5TFSV7w==/base.apk"],nativeLibraryDirectories=[/data/app/~~k2CYZAdg4plVtpMPU3RRgg==/com.dropvid.app-mPPZVC7oY1Yrgkt5TFSV7w==/lib/arm64, /data/app/~~k2CYZAdg4plVtpMPU3RRgg==/com.dropvid.app-mPPZVC7oY1Yrgkt5TFSV7w==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+E/AndroidRuntime(18189): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:259)
+E/AndroidRuntime(18189): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:642)
+E/AndroidRuntime(18189): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:578)
+E/AndroidRuntime(18189): 	at android.app.AppComponentFactory.instantiateActivity(AppComponentFactory.java:95)
+E/AndroidRuntime(18189): 	at androidx.core.app.CoreComponentFactory.instantiateActivity(CoreComponentFactory.java:44)
+E/AndroidRuntime(18189): 	at android.app.Instrumentation.newActivity(Instrumentation.java:1456)
+E/AndroidRuntime(18189): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4587)
+E/AndroidRuntime(18189): 	... 13 more
+E/AndroidRuntime(18540): FATAL EXCEPTION: main
+E/AndroidRuntime(18540): Process: com.dropvid.app, PID: 18540
+E/AndroidRuntime(18540): java.lang.RuntimeException: Unable to instantiate activity ComponentInfo{com.dropvid.app/com.dropvid.app.MainActivity}: java.lang.ClassNotFoundException: Didn't find class "com.dropvid.app.MainActivity" on path: DexPathList[[zip file "/data/app/~~k2CYZAdg4plVtpMPU3RRgg==/com.dropvid.app-mPPZVC7oY1Yrgkt5TFSV7w==/base.apk"],nativeLibraryDirectories=[/data/app/~~k2CYZAdg4plVtpMPU3RRgg==/com.dropvid.app-mPPZVC7oY1Yrgkt5TFSV7w==/lib/arm64, /data/app/~~k2CYZAdg4plVtpMPU3RRgg==/com.dropvid.app-mPPZVC7oY1Yrgkt5TFSV7w==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+E/AndroidRuntime(18540): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4603)
+E/AndroidRuntime(18540): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4932)
+E/AndroidRuntime(18540): 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:222)
+E/AndroidRuntime(18540): 	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:136)
+E/AndroidRuntime(18540): 	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:106)
+E/AndroidRuntime(18540): 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:83)
+E/AndroidRuntime(18540): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:3085)
+E/AndroidRuntime(18540): 	at android.os.Handler.dispatchMessage(Handler.java:110)
+E/AndroidRuntime(18540): 	at android.os.Looper.loopOnce(Looper.java:267)
+E/AndroidRuntime(18540): 	at android.os.Looper.loop(Looper.java:360)
+E/AndroidRuntime(18540): 	at android.app.ActivityThread.main(ActivityThread.java:10054)
+E/AndroidRuntime(18540): 	at java.lang.reflect.Method.invoke(Native Method)
+E/AndroidRuntime(18540): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:616)
+E/AndroidRuntime(18540): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1115)
+E/AndroidRuntime(18540): Caused by: java.lang.ClassNotFoundException: Didn't find class "com.dropvid.app.MainActivity" on path: DexPathList[[zip file "/data/app/~~k2CYZAdg4plVtpMPU3RRgg==/com.dropvid.app-mPPZVC7oY1Yrgkt5TFSV7w==/base.apk"],nativeLibraryDirectories=[/data/app/~~k2CYZAdg4plVtpMPU3RRgg==/com.dropvid.app-mPPZVC7oY1Yrgkt5TFSV7w==/lib/arm64, /data/app/~~k2CYZAdg4plVtpMPU3RRgg==/com.dropvid.app-mPPZVC7oY1Yrgkt5TFSV7w==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+E/AndroidRuntime(18540): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:259)
+E/AndroidRuntime(18540): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:642)
+E/AndroidRuntime(18540): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:578)
+E/AndroidRuntime(18540): 	at android.app.AppComponentFactory.instantiateActivity(AppComponentFactory.java:95)
+E/AndroidRuntime(18540): 	at androidx.core.app.CoreComponentFactory.instantiateActivity(CoreComponentFactory.java:44)
+E/AndroidRuntime(18540): 	at android.app.Instrumentation.newActivity(Instrumentation.java:1456)
+E/AndroidRuntime(18540): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4587)
+E/AndroidRuntime(18540): 	... 13 more
+E/AndroidRuntime(18611): FATAL EXCEPTION: main
+E/AndroidRuntime(18611): Process: com.dropvid.app, PID: 18611
+E/AndroidRuntime(18611): java.lang.RuntimeException: Unable to instantiate activity ComponentInfo{com.dropvid.app/com.dropvid.app.MainActivity}: java.lang.ClassNotFoundException: Didn't find class "com.dropvid.app.MainActivity" on path: DexPathList[[zip file "/data/app/~~k2CYZAdg4plVtpMPU3RRgg==/com.dropvid.app-mPPZVC7oY1Yrgkt5TFSV7w==/base.apk"],nativeLibraryDirectories=[/data/app/~~k2CYZAdg4plVtpMPU3RRgg==/com.dropvid.app-mPPZVC7oY1Yrgkt5TFSV7w==/lib/arm64, /data/app/~~k2CYZAdg4plVtpMPU3RRgg==/com.dropvid.app-mPPZVC7oY1Yrgkt5TFSV7w==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+E/AndroidRuntime(18611): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4603)
+E/AndroidRuntime(18611): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4932)
+E/AndroidRuntime(18611): 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:222)
+E/AndroidRuntime(18611): 	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:136)
+E/AndroidRuntime(18611): 	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:106)
+E/AndroidRuntime(18611): 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:83)
+E/AndroidRuntime(18611): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:3085)
+E/AndroidRuntime(18611): 	at android.os.Handler.dispatchMessage(Handler.java:110)
+E/AndroidRuntime(18611): 	at android.os.Looper.loopOnce(Looper.java:267)
+E/AndroidRuntime(18611): 	at android.os.Looper.loop(Looper.java:360)
+E/AndroidRuntime(18611): 	at android.app.ActivityThread.main(ActivityThread.java:10054)
+E/AndroidRuntime(18611): 	at java.lang.reflect.Method.invoke(Native Method)
+E/AndroidRuntime(18611): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:616)
+E/AndroidRuntime(18611): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1115)
+E/AndroidRuntime(18611): Caused by: java.lang.ClassNotFoundException: Didn't find class "com.dropvid.app.MainActivity" on path: DexPathList[[zip file "/data/app/~~k2CYZAdg4plVtpMPU3RRgg==/com.dropvid.app-mPPZVC7oY1Yrgkt5TFSV7w==/base.apk"],nativeLibraryDirectories=[/data/app/~~k2CYZAdg4plVtpMPU3RRgg==/com.dropvid.app-mPPZVC7oY1Yrgkt5TFSV7w==/lib/arm64, /data/app/~~k2CYZAdg4plVtpMPU3RRgg==/com.dropvid.app-mPPZVC7oY1Yrgkt5TFSV7w==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+E/AndroidRuntime(18611): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:259)
+E/AndroidRuntime(18611): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:642)
+E/AndroidRuntime(18611): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:578)
+E/AndroidRuntime(18611): 	at android.app.AppComponentFactory.instantiateActivity(AppComponentFactory.java:95)
+E/AndroidRuntime(18611): 	at androidx.core.app.CoreComponentFactory.instantiateActivity(CoreComponentFactory.java:44)
+E/AndroidRuntime(18611): 	at android.app.Instrumentation.newActivity(Instrumentation.java:1456)
+E/AndroidRuntime(18611): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4587)
+E/AndroidRuntime(18611): 	... 13 more
+E/AndroidRuntime(18685): FATAL EXCEPTION: main
+E/AndroidRuntime(18685): Process: com.dropvid.app, PID: 18685
+E/AndroidRuntime(18685): java.lang.RuntimeException: Unable to instantiate activity ComponentInfo{com.dropvid.app/com.dropvid.app.MainActivity}: java.lang.ClassNotFoundException: Didn't find class "com.dropvid.app.MainActivity" on path: DexPathList[[zip file "/data/app/~~k2CYZAdg4plVtpMPU3RRgg==/com.dropvid.app-mPPZVC7oY1Yrgkt5TFSV7w==/base.apk"],nativeLibraryDirectories=[/data/app/~~k2CYZAdg4plVtpMPU3RRgg==/com.dropvid.app-mPPZVC7oY1Yrgkt5TFSV7w==/lib/arm64, /data/app/~~k2CYZAdg4plVtpMPU3RRgg==/com.dropvid.app-mPPZVC7oY1Yrgkt5TFSV7w==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+E/AndroidRuntime(18685): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4603)
+E/AndroidRuntime(18685): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4932)
+E/AndroidRuntime(18685): 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:222)
+E/AndroidRuntime(18685): 	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:136)
+E/AndroidRuntime(18685): 	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:106)
+E/AndroidRuntime(18685): 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:83)
+E/AndroidRuntime(18685): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:3085)
+E/AndroidRuntime(18685): 	at android.os.Handler.dispatchMessage(Handler.java:110)
+E/AndroidRuntime(18685): 	at android.os.Looper.loopOnce(Looper.java:267)
+E/AndroidRuntime(18685): 	at android.os.Looper.loop(Looper.java:360)
+E/AndroidRuntime(18685): 	at android.app.ActivityThread.main(ActivityThread.java:10054)
+E/AndroidRuntime(18685): 	at java.lang.reflect.Method.invoke(Native Method)
+E/AndroidRuntime(18685): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:616)
+E/AndroidRuntime(18685): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1115)
+E/AndroidRuntime(18685): Caused by: java.lang.ClassNotFoundException: Didn't find class "com.dropvid.app.MainActivity" on path: DexPathList[[zip file "/data/app/~~k2CYZAdg4plVtpMPU3RRgg==/com.dropvid.app-mPPZVC7oY1Yrgkt5TFSV7w==/base.apk"],nativeLibraryDirectories=[/data/app/~~k2CYZAdg4plVtpMPU3RRgg==/com.dropvid.app-mPPZVC7oY1Yrgkt5TFSV7w==/lib/arm64, /data/app/~~k2CYZAdg4plVtpMPU3RRgg==/com.dropvid.app-mPPZVC7oY1Yrgkt5TFSV7w==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+E/AndroidRuntime(18685): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:259)
+E/AndroidRuntime(18685): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:642)
+E/AndroidRuntime(18685): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:578)
+E/AndroidRuntime(18685): 	at android.app.AppComponentFactory.instantiateActivity(AppComponentFactory.java:95)
+E/AndroidRuntime(18685): 	at androidx.core.app.CoreComponentFactory.instantiateActivity(CoreComponentFactory.java:44)
+E/AndroidRuntime(18685): 	at android.app.Instrumentation.newActivity(Instrumentation.java:1456)
+E/AndroidRuntime(18685): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4587)
+E/AndroidRuntime(18685): 	... 13 more
+E/AndroidRuntime(18754): FATAL EXCEPTION: main
+E/AndroidRuntime(18754): Process: com.dropvid.app, PID: 18754
+E/AndroidRuntime(18754): java.lang.RuntimeException: Unable to instantiate activity ComponentInfo{com.dropvid.app/com.dropvid.app.MainActivity}: java.lang.ClassNotFoundException: Didn't find class "com.dropvid.app.MainActivity" on path: DexPathList[[zip file "/data/app/~~k2CYZAdg4plVtpMPU3RRgg==/com.dropvid.app-mPPZVC7oY1Yrgkt5TFSV7w==/base.apk"],nativeLibraryDirectories=[/data/app/~~k2CYZAdg4plVtpMPU3RRgg==/com.dropvid.app-mPPZVC7oY1Yrgkt5TFSV7w==/lib/arm64, /data/app/~~k2CYZAdg4plVtpMPU3RRgg==/com.dropvid.app-mPPZVC7oY1Yrgkt5TFSV7w==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+E/AndroidRuntime(18754): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4603)
+E/AndroidRuntime(18754): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4932)
+E/AndroidRuntime(18754): 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:222)
+E/AndroidRuntime(18754): 	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:136)
+E/AndroidRuntime(18754): 	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:106)
+E/AndroidRuntime(18754): 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:83)
+E/AndroidRuntime(18754): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:3085)
+E/AndroidRuntime(18754): 	at android.os.Handler.dispatchMessage(Handler.java:110)
+E/AndroidRuntime(18754): 	at android.os.Looper.loopOnce(Looper.java:267)
+E/AndroidRuntime(18754): 	at android.os.Looper.loop(Looper.java:360)
+E/AndroidRuntime(18754): 	at android.app.ActivityThread.main(ActivityThread.java:10054)
+E/AndroidRuntime(18754): 	at java.lang.reflect.Method.invoke(Native Method)
+E/AndroidRuntime(18754): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:616)
+E/AndroidRuntime(18754): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1115)
+E/AndroidRuntime(18754): Caused by: java.lang.ClassNotFoundException: Didn't find class "com.dropvid.app.MainActivity" on path: DexPathList[[zip file "/data/app/~~k2CYZAdg4plVtpMPU3RRgg==/com.dropvid.app-mPPZVC7oY1Yrgkt5TFSV7w==/base.apk"],nativeLibraryDirectories=[/data/app/~~k2CYZAdg4plVtpMPU3RRgg==/com.dropvid.app-mPPZVC7oY1Yrgkt5TFSV7w==/lib/arm64, /data/app/~~k2CYZAdg4plVtpMPU3RRgg==/com.dropvid.app-mPPZVC7oY1Yrgkt5TFSV7w==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+E/AndroidRuntime(18754): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:259)
+E/AndroidRuntime(18754): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:642)
+E/AndroidRuntime(18754): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:578)
+E/AndroidRuntime(18754): 	at android.app.AppComponentFactory.instantiateActivity(AppComponentFactory.java:95)
+E/AndroidRuntime(18754): 	at androidx.core.app.CoreComponentFactory.instantiateActivity(CoreComponentFactory.java:44)
+E/AndroidRuntime(18754): 	at android.app.Instrumentation.newActivity(Instrumentation.java:1456)
+E/AndroidRuntime(18754): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4587)
+E/AndroidRuntime(18754): 	... 13 more
+E/AndroidRuntime(18807): FATAL EXCEPTION: main
+E/AndroidRuntime(18807): Process: com.dropvid.app, PID: 18807
+E/AndroidRuntime(18807): java.lang.RuntimeException: Unable to instantiate activity ComponentInfo{com.dropvid.app/com.dropvid.app.MainActivity}: java.lang.ClassNotFoundException: Didn't find class "com.dropvid.app.MainActivity" on path: DexPathList[[zip file "/data/app/~~k2CYZAdg4plVtpMPU3RRgg==/com.dropvid.app-mPPZVC7oY1Yrgkt5TFSV7w==/base.apk"],nativeLibraryDirectories=[/data/app/~~k2CYZAdg4plVtpMPU3RRgg==/com.dropvid.app-mPPZVC7oY1Yrgkt5TFSV7w==/lib/arm64, /data/app/~~k2CYZAdg4plVtpMPU3RRgg==/com.dropvid.app-mPPZVC7oY1Yrgkt5TFSV7w==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+E/AndroidRuntime(18807): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4603)
+E/AndroidRuntime(18807): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4932)
+E/AndroidRuntime(18807): 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:222)
+E/AndroidRuntime(18807): 	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:136)
+E/AndroidRuntime(18807): 	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:106)
+E/AndroidRuntime(18807): 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:83)
+E/AndroidRuntime(18807): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:3085)
+E/AndroidRuntime(18807): 	at android.os.Handler.dispatchMessage(Handler.java:110)
+E/AndroidRuntime(18807): 	at android.os.Looper.loopOnce(Looper.java:267)
+E/AndroidRuntime(18807): 	at android.os.Looper.loop(Looper.java:360)
+E/AndroidRuntime(18807): 	at android.app.ActivityThread.main(ActivityThread.java:10054)
+E/AndroidRuntime(18807): 	at java.lang.reflect.Method.invoke(Native Method)
+E/AndroidRuntime(18807): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:616)
+E/AndroidRuntime(18807): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1115)
+E/AndroidRuntime(18807): Caused by: java.lang.ClassNotFoundException: Didn't find class "com.dropvid.app.MainActivity" on path: DexPathList[[zip file "/data/app/~~k2CYZAdg4plVtpMPU3RRgg==/com.dropvid.app-mPPZVC7oY1Yrgkt5TFSV7w==/base.apk"],nativeLibraryDirectories=[/data/app/~~k2CYZAdg4plVtpMPU3RRgg==/com.dropvid.app-mPPZVC7oY1Yrgkt5TFSV7w==/lib/arm64, /data/app/~~k2CYZAdg4plVtpMPU3RRgg==/com.dropvid.app-mPPZVC7oY1Yrgkt5TFSV7w==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+E/AndroidRuntime(18807): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:259)
+E/AndroidRuntime(18807): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:642)
+E/AndroidRuntime(18807): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:578)
+E/AndroidRuntime(18807): 	at android.app.AppComponentFactory.instantiateActivity(AppComponentFactory.java:95)
+E/AndroidRuntime(18807): 	at androidx.core.app.CoreComponentFactory.instantiateActivity(CoreComponentFactory.java:44)
+E/AndroidRuntime(18807): 	at android.app.Instrumentation.newActivity(Instrumentation.java:1456)
+E/AndroidRuntime(18807): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4587)
+E/AndroidRuntime(18807): 	... 13 more
+E/AndroidRuntime(19462): FATAL EXCEPTION: main
+E/AndroidRuntime(19462): Process: com.dropvid.app, PID: 19462
+E/AndroidRuntime(19462): java.lang.RuntimeException: Unable to instantiate activity ComponentInfo{com.dropvid.app/com.dropvid.app.MainActivity}: java.lang.ClassNotFoundException: Didn't find class "com.dropvid.app.MainActivity" on path: DexPathList[[zip file "/data/app/~~k2CYZAdg4plVtpMPU3RRgg==/com.dropvid.app-mPPZVC7oY1Yrgkt5TFSV7w==/base.apk"],nativeLibraryDirectories=[/data/app/~~k2CYZAdg4plVtpMPU3RRgg==/com.dropvid.app-mPPZVC7oY1Yrgkt5TFSV7w==/lib/arm64, /data/app/~~k2CYZAdg4plVtpMPU3RRgg==/com.dropvid.app-mPPZVC7oY1Yrgkt5TFSV7w==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+E/AndroidRuntime(19462): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4603)
+E/AndroidRuntime(19462): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4932)
+E/AndroidRuntime(19462): 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:222)
+E/AndroidRuntime(19462): 	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:136)
+E/AndroidRuntime(19462): 	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:106)
+E/AndroidRuntime(19462): 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:83)
+E/AndroidRuntime(19462): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:3085)
+E/AndroidRuntime(19462): 	at android.os.Handler.dispatchMessage(Handler.java:110)
+E/AndroidRuntime(19462): 	at android.os.Looper.loopOnce(Looper.java:267)
+E/AndroidRuntime(19462): 	at android.os.Looper.loop(Looper.java:360)
+E/AndroidRuntime(19462): 	at android.app.ActivityThread.main(ActivityThread.java:10054)
+E/AndroidRuntime(19462): 	at java.lang.reflect.Method.invoke(Native Method)
+E/AndroidRuntime(19462): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:616)
+E/AndroidRuntime(19462): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1115)
+E/AndroidRuntime(19462): Caused by: java.lang.ClassNotFoundException: Didn't find class "com.dropvid.app.MainActivity" on path: DexPathList[[zip file "/data/app/~~k2CYZAdg4plVtpMPU3RRgg==/com.dropvid.app-mPPZVC7oY1Yrgkt5TFSV7w==/base.apk"],nativeLibraryDirectories=[/data/app/~~k2CYZAdg4plVtpMPU3RRgg==/com.dropvid.app-mPPZVC7oY1Yrgkt5TFSV7w==/lib/arm64, /data/app/~~k2CYZAdg4plVtpMPU3RRgg==/com.dropvid.app-mPPZVC7oY1Yrgkt5TFSV7w==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+E/AndroidRuntime(19462): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:259)
+E/AndroidRuntime(19462): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:642)
+E/AndroidRuntime(19462): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:578)
+E/AndroidRuntime(19462): 	at android.app.AppComponentFactory.instantiateActivity(AppComponentFactory.java:95)
+E/AndroidRuntime(19462): 	at androidx.core.app.CoreComponentFactory.instantiateActivity(CoreComponentFactory.java:44)
+E/AndroidRuntime(19462): 	at android.app.Instrumentation.newActivity(Instrumentation.java:1456)
+E/AndroidRuntime(19462): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4587)
+E/AndroidRuntime(19462): 	... 13 more
+D/FlutterJNI(27289): Beginning load of flutter...
+D/FlutterJNI(27289): flutter (null) was loaded normally!
+I/flutter (27289): [IMPORTANT:flutter/shell/platform/android/android_context_vk_impeller.cc(62)] Using the Impeller rendering backend (Vulkan).
+D/FlutterRenderer(27289): Width is zero. 0,0
+D/FlutterRenderer(27289): Width is zero. 0,0
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+Syncing files to device 2409FPCC4I...                           
+W/WindowOnBackDispatcher(27289): sendCancelIfRunning: isInProgress=false callback=io.flutter.embedding.android.FlutterActivity$1@e67302b
+Syncing files to device 2409FPCC4I...                            2,044ms
+
+Flutter run key commands.
+r Hot reload. 
+R Hot restart.
+h List all available interactive commands.
+d Detach (terminate "flutter run" but leave application running).
+c Clear the screen
+q Quit (terminate the application on the device).
+
+A Dart VM Service on 2409FPCC4I is available at: http://127.0.0.1:54109/x1tFnMO4aow=/
+D/ActivityThread(27289): invoke error.
+D/libEGL  (27289): Post task 1
+D/libEGL  (27289): Worker thread start 490905641984
+D/libEGL  (27289): Run task 1
+E/com.dropvid.app(27289): FrameInsert open fail: No such file or directory
+W/com.dropvid.app(27289): userfaultfd: MOVE ioctl seems unsupported: Connection timed out
+I/MIUIInput(27289): [MotionEvent] ViewRootImpl windowName 'com.dropvid.app/com.dropvid.app.MainActivity', { action=ACTION_DOWN, id[0]=0, pointerCount=1, eventTime=142375331, downTime=142375331, phoneEventTime=05:59:55.876 } moveCount:0
+W/MirrorManager(27289): this model don't Support
+D/VRI[MainActivity](27289): getMiuiFreeformStackInfo mTmpFrames.miuiFreeFormStackInfo: null
+I/HandWritingStubImpl(27289): refreshLastKeyboardType: 1
+I/HandWritingStubImpl(27289): getCurrentKeyboardType: 1
+I/PowerHalMgrImpl(27289): perfLockAcq is supported. 
+I/PowerHalMgrImpl(27289): hdl:180193, pid:27289 
+I/PowerHalMgrImpl(27289): hdl:180195, pid:27289 
+I/HandWritingStubImpl(27289): setCurrentKeyboardType: 1
+I/MIUIInput(27289): [MotionEvent] ViewRootImpl windowName 'com.dropvid.app/com.dropvid.app.MainActivity', { action=ACTION_UP, id[0]=0, pointerCount=1, eventTime=142375436, downTime=142375331, phoneEventTime=05:59:55.981 } moveCount:3
+I/ScrollIdentify(27289): on fling
+D/InsetsController(27289): hide(ime(), fromIme=false)
+I/ImeTracker(27289): com.dropvid.app:d313efce: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+I/PowerHalMgrImpl(27289): hdl:180197, pid:27289 
+I/PowerHalMgrImpl(27289): hdl:180198, pid:27289 
+D/CompatChangeReporter(27289): Compat change id reported: 351566728; UID 10424; state: ENABLED
+I/MIUIInput(27289): [MotionEvent] ViewRootImpl windowName 'com.dropvid.app/com.dropvid.app.MainActivity', { action=ACTION_DOWN, id[0]=0, pointerCount=1, eventTime=142376816, downTime=142376816, phoneEventTime=05:59:57.361 } moveCount:0
+D/VRI[MainActivity](27289): getMiuiFreeformStackInfo mTmpFrames.miuiFreeFormStackInfo: null
+I/PowerHalMgrImpl(27289): hdl:180202, pid:27289 
+I/PowerHalMgrImpl(27289): hdl:180202, pid:27289 
+I/HandWritingStubImpl(27289): setCurrentKeyboardType: 1
+I/MIUIInput(27289): [MotionEvent] ViewRootImpl windowName 'com.dropvid.app/com.dropvid.app.MainActivity', { action=ACTION_UP, id[0]=0, pointerCount=1, eventTime=142376908, downTime=142376816, phoneEventTime=05:59:57.453 } moveCount:14
+I/ScrollIdentify(27289): on fling
+I/PowerHalMgrImpl(27289): hdl:180208, pid:27289 
+W/1.raster(27289): type=1400 audit(0.0:911053): avc:  denied  { getattr } for  path="/sys/module/metis/parameters/minor_window_app" dev="sysfs" ino=102313 scontext=u:r:untrusted_app:s0:c168,c257,c512,c768 tcontext=u:object_r:sysfs_migt:s0 tclass=file permissive=0 app=com.dropvid.app
+I/PowerHalMgrImpl(27289): hdl:180209, pid:27289 
+I/MIUIInput(27289): [MotionEvent] ViewRootImpl windowName 'com.dropvid.app/com.dropvid.app.MainActivity', { action=ACTION_DOWN, id[0]=0, pointerCount=1, eventTime=142379430, downTime=142379430, phoneEventTime=05:59:59.975 } moveCount:0
+D/VRI[MainActivity](27289): getMiuiFreeformStackInfo mTmpFrames.miuiFreeFormStackInfo: null
+I/PowerHalMgrImpl(27289): hdl:180214, pid:27289 
+I/PowerHalMgrImpl(27289): hdl:180215, pid:27289 
+I/HandWritingStubImpl(27289): setCurrentKeyboardType: 1
+I/MIUIInput(27289): [MotionEvent] ViewRootImpl windowName 'com.dropvid.app/com.dropvid.app.MainActivity', { action=ACTION_UP, id[0]=0, pointerCount=1, eventTime=142379548, downTime=142379430, phoneEventTime=06:00:00.093 } moveCount:17
+I/ScrollIdentify(27289): on fling
+I/PowerHalMgrImpl(27289): hdl:180220, pid:27289 
+I/PowerHalMgrImpl(27289): hdl:180221, pid:27289 
+I/MIUIInput(27289): [MotionEvent] ViewRootImpl windowName 'com.dropvid.app/com.dropvid.app.MainActivity', { action=ACTION_DOWN, id[0]=0, pointerCount=1, eventTime=142383220, downTime=142383220, phoneEventTime=06:00:03.765 } moveCount:0
+D/VRI[MainActivity](27289): getMiuiFreeformStackInfo mTmpFrames.miuiFreeFormStackInfo: null
+I/PowerHalMgrImpl(27289): hdl:180226, pid:27289 
+I/PowerHalMgrImpl(27289): hdl:180227, pid:27289 
+I/HandWritingStubImpl(27289): setCurrentKeyboardType: 1
+I/MIUIInput(27289): [MotionEvent] ViewRootImpl windowName 'com.dropvid.app/com.dropvid.app.MainActivity', { action=ACTION_UP, id[0]=0, pointerCount=1, eventTime=142383325, downTime=142383220, phoneEventTime=06:00:03.869 } moveCount:15
+I/ScrollIdentify(27289): on fling
+I/PowerHalMgrImpl(27289): hdl:180232, pid:27289 
+I/PowerHalMgrImpl(27289): hdl:180233, pid:27289 
+I/MIUIInput(27289): [MotionEvent] ViewRootImpl windowName 'com.dropvid.app/com.dropvid.app.MainActivity', { action=ACTION_DOWN, id[0]=0, pointerCount=1, eventTime=142389052, downTime=142389052, phoneEventTime=06:00:09.597 } moveCount:0
+D/VRI[MainActivity](27289): getMiuiFreeformStackInfo mTmpFrames.miuiFreeFormStackInfo: null
+I/HandWritingStubImpl(27289): setCurrentKeyboardType: 1
+I/MIUIInput(27289): [MotionEvent] ViewRootImpl windowName 'com.dropvid.app/com.dropvid.app.MainActivity', { action=ACTION_UP, id[0]=0, pointerCount=1, eventTime=142389256, downTime=142389052, phoneEventTime=06:00:09.801 } moveCount:0
+I/com.dropvid.app(27289): AssetManager2(0xb40000747c656058) locale list changing from [] to [en-IN]
+I/com.dropvid.app(27289): AssetManager2(0xb40000747c6588f8) locale list changing from [] to [en-IN]
+I/com.dropvid.app(27289): AssetManager2(0xb40000747c653df8) locale list changing from [] to [en-IN]
+I/com.dropvid.app(27289): AssetManager2(0xb40000747c653178) locale list changing from [] to [en-IN]
+I/com.dropvid.app(27289): AssetManager2(0xb40000747c635678) locale list changing from [] to [en-IN]
+I/com.dropvid.app(27289): AssetManager2(0xb40000747c637f18) locale list changing from [] to [en-IN]
+I/com.dropvid.app(27289): AssetManager2(0xb40000747c6262b8) locale list changing from [] to [en-IN]
+W/WindowOnBackDispatcher(27289): sendCancelIfRunning: isInProgress=false callback=io.flutter.embedding.android.FlutterActivity$1@e67302b
+I/MIUIInput(27289): [MotionEvent] ViewRootImpl windowName 'com.dropvid.app/com.dropvid.app.MainActivity', { action=ACTION_DOWN, id[0]=0, pointerCount=1, eventTime=142399445, downTime=142399445, phoneEventTime=06:00:19.990 } moveCount:0
+D/VRI[MainActivity](27289): getMiuiFreeformStackInfo mTmpFrames.miuiFreeFormStackInfo: null
+I/HandWritingStubImpl(27289): setCurrentKeyboardType: 1
+I/MIUIInput(27289): [MotionEvent] ViewRootImpl windowName 'com.dropvid.app/com.dropvid.app.MainActivity', { action=ACTION_UP, id[0]=0, pointerCount=1, eventTime=142399534, downTime=142399445, phoneEventTime=06:00:20.079 } moveCount:2
+I/MIUIInput(27289): [MotionEvent] ViewRootImpl windowName 'com.dropvid.app/com.dropvid.app.MainActivity', { action=ACTION_DOWN, id[0]=0, pointerCount=1, eventTime=142400868, downTime=142400868, phoneEventTime=06:00:21.413 } moveCount:0
+D/VRI[MainActivity](27289): getMiuiFreeformStackInfo mTmpFrames.miuiFreeFormStackInfo: null
+I/HandWritingStubImpl(27289): setCurrentKeyboardType: 1
+I/MIUIInput(27289): [MotionEvent] ViewRootImpl windowName 'com.dropvid.app/com.dropvid.app.MainActivity', { action=ACTION_UP, id[0]=0, pointerCount=1, eventTime=142400923, downTime=142400868, phoneEventTime=06:00:21.467 } moveCount:0
+I/ImeTracker(27289): com.dropvid.app:da70b264: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+I/HandWritingStubImpl(27289): refreshLastKeyboardType: 1
+I/HandWritingStubImpl(27289): getCurrentKeyboardType: 1
+D/InsetsController(27289): show(ime(), fromIme=false)
+D/InsetsController(27289): Setting requestedVisibleTypes to -1 (was -9)
+I/AssistStructure(27289): Flattened final assist data: 508 bytes, containing 1 windows, 3 views
+D/InputConnectionAdaptor(27289): The input method toggled cursor monitoring on
+D/InsetsController(27289): default animation onReady types: 8 controller=android.view.InsetsAnimationControlImpl@2db2ee8
+D/ViewRootImplStubImpl(27289): requestedTypes: 8
+D/ViewRootImplStubImpl(27289): onAnimationStart
+W/InteractionJankMonitor(27289): Initializing without READ_DEVICE_CONFIG permission. enabled=false, interval=1, missedFrameThreshold=3, frameTimeThreshold=64, package=com.dropvid.app
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.0
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.047199547
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.15901582
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.29022172
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.41802853
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.53219473
+D/libEGL  (27289): Worker thread exit 490905641984
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.62926257
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.7092471
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.7737616
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.82501656
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.8652883
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.8966684
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.92096573
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.9396871
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.95405716
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.96505415
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.97344977
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.97984725
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.9847149
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.98841393
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.991222
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.9933521
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.9949669
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.9961904
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.9971171
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.9978187
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.9983498
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.9987517
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 1.0
+D/ViewRootImplStubImpl(27289): onAnimationEnd,canceled: false
+D/InsetsController(27289): onAnimationFinish showOnFinish: true
+D/InsetsAnimationCtrlImpl(27289): notifyFinished shown: true, currentAlpha: 1.000000, currentInsets: Insets{left=0, top=0, right=0, bottom=852}
+D/InsetsController(27289): cancelAnimation of types:8 animType:0 host:com.dropvid.app/com.dropvid.app.MainActivity invokeCallback=false
+D/InsetsController(27289): notifyFinished. shown: true runner=android.view.InsetsAnimationControlImpl@2db2ee8
+I/ImeTracker(27289): com.dropvid.app:da70b264: onShown
+D/InsetsAnimationCtrlImpl(27289): Animation finished abruptly.
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/InsetsController(27289): Setting requestedVisibleTypes to -9 (was -1)
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+I/ImeTracker(27289): system_server:7d32e7c1: onCancelled at PHASE_CLIENT_ON_CONTROLS_CHANGED
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+I/ImeTracker(27289): com.dropvid.app:41ef167b: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT_REQUEST_HIDE_WITH_CONTROL fromUser true
+W/WindowOnBackDispatcher(27289): sendCancelIfRunning: isInProgress=false callback=android.view.ImeBackAnimationController@3ff2985
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/InsetsController(27289): hide(ime(), fromIme=false)
+I/ImeTracker(27289): com.dropvid.app:41ef167b: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/InsetsAnimationCtrlImpl(27289): notifyFinished shown: false, currentAlpha: 1.000000, currentInsets: Insets{left=0, top=0, right=0, bottom=0}
+D/InsetsController(27289): cancelAnimation of types:8 animType:2 host:com.dropvid.app/com.dropvid.app.MainActivity invokeCallback=false
+D/InsetsController(27289): notifyFinished. shown: false runner=android.view.InsetsAnimationControlImpl@da09432
+D/InsetsAnimationCtrlImpl(27289): Animation finished abruptly.
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+I/HandWritingStubImpl(27289): getCurrentKeyboardType: 1
+W/RemoteInputConnectionImpl(27289): requestCursorUpdates on inactive InputConnection
+D/VRI[MainActivity](27289): visibilityChanged oldVisibility=true newVisibility=false
+D/BLASTBufferQueue(27289): [439402f SurfaceView[com.dropvid.app/com.dropvid.app.MainActivity]#1](f:0,a:1) destructor()
+D/BufferQueueConsumer(27289): [439402f SurfaceView[com.dropvid.app/com.dropvid.app.MainActivity]#1(BLAST Consumer)1](id:6a9900000001,api:0,p:-1,c:27289) disconnect
+D/ViewRootImplStubImpl(27289): onSurfaceViewDetached:
+D/ViewRootImplStubImpl(27289): , vri:android.view.ViewRootImpl@bb1afc5, com.dropvid.app/com.dropvid.app.MainActivity
+D/ViewRootImplStubImpl(27289): , vri size:1080x2400
+D/ViewRootImplStubImpl(27289): , surfaceView:io.flutter.embedding.android.FlutterSurfaceView{439402f V.E...... ........ 0,0-1080,2400}, SurfaceView[com.dropvid.app/com.dropvid.app.MainActivity]
+D/ViewRootImplStubImpl(27289): , surfaceView size:1080x2400
+D/ViewRootImplStubImpl(27289): , surfaceControl:Surface(name=439402f SurfaceView[com.dropvid.app/com.dropvid.app.MainActivity](BLAST)#73730)/@0x5940d1a
+W/com.dropvid.app(27289): Binder 0xb4000073dc633ae0 destroyed after setInheritRt before being parceled.
+D/BLASTBufferQueue(27289): [VRI[MainActivity]#0](f:0,a:2) destructor()
+D/BufferQueueConsumer(27289): [VRI[MainActivity]#0(BLAST Consumer)0](id:6a9900000000,api:0,p:-1,c:27289) disconnect
+I/AutofillManager(27289): onInvisibleForAutofill(): expiringResponse
+D/AppScoutStateMachine(27289): 27289-ScoutStateMachinecreated
+D/ViewRootImpl(27289): Skipping stats log for color mode
+D/Activity(27289): Activity = ActivityInfo{7a62a0a com.dropvid.app.MainActivity}, Resume onConfigurationChanged = {1.1 404mcc12mnc [en_IN] ldltr sw384dp w384dp h853dp 450dpi nrml long widecg port uimode=14 night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2400) mAppBounds=Rect(0, 0 - 1080, 2400) mMaxBounds=Rect(0, 0 - 1080, 2400) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTATION_0 mInSplitScreen=false letterBoxed=false foScaled=false isSpecificEmbedded=false embeddingScale=1.0} s.3 fontWeightAdjustment=0/d/0 themeChanged=0 themeChangedFlags=0 display=0 extraData = Bundle[{}] screenType=0/0}
+D/SecurityManager(27289): checkAccessControl flag1
+D/WmSystemUiDebug(27289): set navigation bar color,Alpha=1.0, RGB:0,0,0 caller:io.flutter.plugin.platform.PlatformPlugin.setSystemChromeSystemUIOverlayStyle:514 io.flutter.plugin.platform.PlatformPlugin.updateSystemUiOverlays:420 io.flutter.embedding.android.FlutterActivityAndFragmentDelegate.updateSystemUiOverlays:610 io.flutter.embedding.android.FlutterActivityAndFragmentDelegate.onPostResume:594 io.flutter.embedding.android.FlutterActivity.onPostResume:848 android.app.Activity.performResume:9596 android.app.ActivityThread.performResumeActivity:6104 android.app.ActivityThread.handleResumeActivity:6152 android.app.servertransaction.ResumeActivityItem.execute:73 android.app.servertransaction.ActivityTransactionItem.execute:63 
+D/BufferQueueConsumer(27289): [](id:6a9900000002,api:0,p:-1,c:27289) connect: controlledByApp=false
+D/BLASTBufferQueue(27289): [VRI[MainActivity]#2](f:0,a:0) constructor()
+D/BLASTBufferQueue(27289): [VRI[MainActivity]#2](f:0,a:0) update width=1080 height=2400 format=-3 mTransformHint=0
+D/ViewRootImplStubImpl(27289): onSurfaceViewAttached:
+D/ViewRootImplStubImpl(27289): , vri:android.view.ViewRootImpl@bb1afc5, com.dropvid.app/com.dropvid.app.MainActivity
+D/ViewRootImplStubImpl(27289): , vri size:1080x2400
+D/ViewRootImplStubImpl(27289): , surfaceView:io.flutter.embedding.android.FlutterSurfaceView{439402f V.E...... ......ID 0,0-1080,2400}, SurfaceView[com.dropvid.app/com.dropvid.app.MainActivity]
+D/ViewRootImplStubImpl(27289): , surfaceView size:1080x2400
+D/ViewRootImplStubImpl(27289): , surfaceControl:Surface(name=439402f SurfaceView[com.dropvid.app/com.dropvid.app.MainActivity](BLAST)#73832)/@0x33e0471
+D/BufferQueueConsumer(27289): [](id:6a9900000003,api:0,p:-1,c:27289) connect: controlledByApp=false
+D/BLASTBufferQueue(27289): [439402f SurfaceView[com.dropvid.app/com.dropvid.app.MainActivity]#3](f:0,a:0) constructor()
+D/BLASTBufferQueue(27289): [439402f SurfaceView[com.dropvid.app/com.dropvid.app.MainActivity]#3](f:0,a:0) update width=1080 height=2400 format=4 mTransformHint=0
+W/com.dropvid.app(27289): Binder 0xb4000073dc633120 destroyed after setInheritRt before being parceled.
+D/VRI[MainActivity](27289): vri.reportNextDraw 0 Rect(0, 0 - 1080, 2400) android.view.ViewRootImpl.performTraversals:5606 android.view.ViewRootImpl.doTraversal:4159 android.view.ViewRootImpl$TraversalRunnable.run:12555 android.view.Choreographer$CallbackRecord.run:2040 android.view.Choreographer$CallbackRecord.run:2049 
+D/SurfaceView(27289): UPDATE Surface(name=439402f SurfaceView[com.dropvid.app/com.dropvid.app.MainActivity]#73831)/@0x879e2d7, mIsProjectionMode = false
+D/VRI[MainActivity](27289): vri.Setup new sync=wmsSync-VRI[MainActivity]#4
+D/BLASTBufferQueue(27289): [VRI[MainActivity]#2](f:0,a:1) acquireNextBufferLocked size=1080x2400 mFrameNumber=1 applyTransaction=true mTimestamp=142431067108950(auto) mPendingTransactions.size=0 graphicBufferId=117205362540581 transform=0
+D/BLASTBufferQueue(27289): [439402f SurfaceView[com.dropvid.app/com.dropvid.app.MainActivity]#3](f:0,a:1) acquireNextBufferLocked size=1080x2400 mFrameNumber=1 applyTransaction=true mTimestamp=142431134405257(auto) mPendingTransactions.size=0 graphicBufferId=117205362540575 transform=0
+D/VRI[MainActivity](27289): vri.reportDrawFinished 0 0 Rect(0, 0 - 1080, 2400)
+I/HandWritingStubImpl(27289): refreshLastKeyboardType: 1
+I/HandWritingStubImpl(27289): getCurrentKeyboardType: 1
+D/InsetsController(27289): hide(ime(), fromIme=false)
+I/ImeTracker(27289): com.dropvid.app:453ee86d: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+I/MIUIInput(27289): [MotionEvent] ViewRootImpl windowName 'com.dropvid.app/com.dropvid.app.MainActivity', { action=ACTION_DOWN, id[0]=0, pointerCount=1, eventTime=142431319, downTime=142431319, phoneEventTime=06:00:51.864 } moveCount:0
+D/VRI[MainActivity](27289): getMiuiFreeformStackInfo mTmpFrames.miuiFreeFormStackInfo: null
+I/HandWritingStubImpl(27289): setCurrentKeyboardType: 1
+I/MIUIInput(27289): [MotionEvent] ViewRootImpl windowName 'com.dropvid.app/com.dropvid.app.MainActivity', { action=ACTION_UP, id[0]=0, pointerCount=1, eventTime=142431396, downTime=142431319, phoneEventTime=06:00:51.941 } moveCount:0
+I/ImeTracker(27289): com.dropvid.app:ed64d5da: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+I/HandWritingStubImpl(27289): refreshLastKeyboardType: 1
+I/HandWritingStubImpl(27289): getCurrentKeyboardType: 1
+D/InsetsController(27289): show(ime(), fromIme=false)
+D/InsetsController(27289): Setting requestedVisibleTypes to -1 (was -9)
+D/InputConnectionAdaptor(27289): The input method toggled cursor monitoring on
+D/InsetsController(27289): default animation onReady types: 8 controller=android.view.InsetsAnimationControlImpl@c5e7feb
+D/ViewRootImplStubImpl(27289): requestedTypes: 8
+D/ViewRootImplStubImpl(27289): onAnimationStart
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.0
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.04719995
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.1590182
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.29022637
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.4180318
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.53219557
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.62925994
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.7092384
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.77374935
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.82500297
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.86527514
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.8966564
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.9209545
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.9396775
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.9540487
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.96504706
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.9734437
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.97984177
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.98470974
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.9884091
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.9912176
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.9933482
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.9949635
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.99618757
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.9971147
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.99781674
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.99834824
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.99875045
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 1.0
+D/ViewRootImplStubImpl(27289): onAnimationEnd,canceled: false
+D/InsetsController(27289): onAnimationFinish showOnFinish: true
+D/InsetsAnimationCtrlImpl(27289): notifyFinished shown: true, currentAlpha: 1.000000, currentInsets: Insets{left=0, top=0, right=0, bottom=852}
+D/InsetsController(27289): cancelAnimation of types:8 animType:0 host:com.dropvid.app/com.dropvid.app.MainActivity invokeCallback=false
+D/InsetsController(27289): notifyFinished. shown: true runner=android.view.InsetsAnimationControlImpl@c5e7feb
+I/ImeTracker(27289): com.dropvid.app:ed64d5da: onShown
+D/InsetsAnimationCtrlImpl(27289): Animation finished abruptly.
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+I/MIUIInput(27289): [MotionEvent] ViewRootImpl windowName 'com.dropvid.app/com.dropvid.app.MainActivity', { action=ACTION_DOWN, id[0]=0, pointerCount=1, eventTime=142433431, downTime=142433431, phoneEventTime=06:00:53.976 } moveCount:0
+D/VRI[MainActivity](27289): getMiuiFreeformStackInfo mTmpFrames.miuiFreeFormStackInfo: null
+I/HandWritingStubImpl(27289): setCurrentKeyboardType: 1
+I/MIUIInput(27289): [MotionEvent] ViewRootImpl windowName 'com.dropvid.app/com.dropvid.app.MainActivity', { action=ACTION_UP, id[0]=0, pointerCount=1, eventTime=142433518, downTime=142433431, phoneEventTime=06:00:54.062 } moveCount:0
+
+ΓòÉΓòÉΓòí EXCEPTION CAUGHT BY RENDERING LIBRARY Γò₧ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+The following assertion was thrown during layout:
+A RenderFlex overflowed by 24 pixels on the bottom.
+
+The relevant error-causing widget was:
+  Column
+  Column:file:///D:/DropVid/link_downloading/lib/presentation/screens/home/home_screen.dart:63:18
+
+To inspect this widget in Flutter DevTools, visit:
+http://127.0.0.1:54109/x1tFnMO4aow=/devtools//#/inspector?uri=http%3A%2F%2F127.0.0.1%3A54109%2Fx1tFnMO4aow%3D%2F&inspectorRef=inspector-0
+
+The overflowing RenderFlex has an orientation of Axis.vertical.
+The edge of the RenderFlex that is overflowing has been marked in the rendering with a yellow and
+black striped pattern. This is usually caused by the contents being too big for the RenderFlex.
+Consider applying a flex factor (e.g. using an Expanded widget) to force the children of the
+RenderFlex to fit within the available space instead of being sized to their natural size.
+This is considered an error condition because it indicates that there is content that cannot be
+seen. If the content is legitimately bigger than the available space, consider clipping it with a
+ClipRect widget before putting it in the flex, or using a scrollable container rather than a Flex,
+like a ListView.
+The specific RenderFlex in question is: RenderFlex#cf451 relayoutBoundary=up9 OVERFLOWING:
+  needs compositing
+  creator: Column ΓåÉ Padding ΓåÉ MediaQuery ΓåÉ Padding ΓåÉ SafeArea ΓåÉ KeyedSubtree-[GlobalKey#2df47] ΓåÉ
+    _BodyBuilder ΓåÉ MediaQuery ΓåÉ LayoutId-[<_ScaffoldSlot.body>] ΓåÉ CustomMultiChildLayout ΓåÉ
+    _ActionsScope ΓåÉ Actions ΓåÉ Γï»
+  parentData: offset=Offset(16.0, 16.0) (can use size)
+  constraints: BoxConstraints(0.0<=w<=352.0, 0.0<=h<=479.3)
+  size: Size(352.0, 479.3)
+  direction: vertical
+  mainAxisAlignment: start
+  mainAxisSize: max
+  crossAxisAlignment: start
+  textDirection: ltr
+  verticalDirection: down
+  spacing: 0.0
+ΓùóΓùñΓùóΓùñΓùóΓùñΓùóΓùñΓùóΓùñΓùóΓùñΓùóΓùñΓùóΓùñΓùóΓùñΓùóΓùñΓùóΓùñΓùóΓùñΓùóΓùñΓùóΓùñΓùóΓùñΓùóΓùñΓùóΓùñΓùóΓùñΓùóΓùñΓùóΓùñΓùóΓùñΓùóΓùñΓùóΓùñΓùóΓùñΓùóΓùñΓùóΓùñΓùóΓùñΓùóΓùñΓùóΓùñΓùóΓùñΓùóΓùñΓùóΓùñΓùóΓùñΓùóΓùñΓùóΓùñΓùóΓùñΓùóΓùñΓùóΓùñΓùóΓùñΓùóΓùñΓùóΓùñΓùóΓùñΓùóΓùñΓùóΓùñΓùóΓùñΓùóΓùñΓùóΓùñΓùóΓùñΓùóΓùñΓùóΓùñ
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+
+I/ImeTracker(27289): com.dropvid.app:ab78f9bb: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/InsetsController(27289): hide(ime(), fromIme=false)
+W/WindowOnBackDispatcher(27289): sendCancelIfRunning: isInProgress=false callback=android.view.ImeBackAnimationController@3ff2985
+D/InsetsController(27289): Setting requestedVisibleTypes to -9 (was -1)
+D/CompatChangeReporter(27289): Compat change id reported: 395521150; UID 10424; state: ENABLED
+D/InsetsController(27289): default animation onReady types: 8 controller=android.view.InsetsAnimationControlImpl@9990163
+D/ViewRootImplStubImpl(27289): requestedTypes: 8
+I/ImeTracker(27289): system_server:10aece86: onCancelled at PHASE_CLIENT_ON_CONTROLS_CHANGED
+D/ViewRootImplStubImpl(27289): onAnimationStart
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.0
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.05328503
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.17690238
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.31734198
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.44998989
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.5651786
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.66064507
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.7375263
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.7982881
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.84569967
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.88236445
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.9105386
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.93208927
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.94851804
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.9610115
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.97049516
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.9776845
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.983129
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.9872498
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.9903661
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.992722
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.9945024
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.99584764
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.9968639
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.99763155
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.9982114
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 0.9986493
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/ViewRootImplStubImpl(27289): onAnimationUpdate, value: 1.0
+D/ViewRootImplStubImpl(27289): onAnimationEnd,canceled: false
+D/InsetsController(27289): onAnimationFinish showOnFinish: false
+D/InsetsAnimationCtrlImpl(27289): notifyFinished shown: false, currentAlpha: 1.000000, currentInsets: Insets{left=0, top=0, right=0, bottom=0}
+D/InsetsController(27289): cancelAnimation of types:8 animType:1 host:com.dropvid.app/com.dropvid.app.MainActivity invokeCallback=false
+D/InsetsController(27289): notifyFinished. shown: false runner=android.view.InsetsAnimationControlImpl@9990163
+D/InsetsAnimationCtrlImpl(27289): Animation finished abruptly.
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+I/HandWritingStubImpl(27289): getCurrentKeyboardType: 1
+I/MIUIInput(27289): [MotionEvent] ViewRootImpl windowName 'com.dropvid.app/com.dropvid.app.MainActivity', { action=ACTION_DOWN, id[0]=0, pointerCount=1, eventTime=142443502, downTime=142443502, phoneEventTime=06:01:04.047 } moveCount:0
+D/VRI[MainActivity](27289): getMiuiFreeformStackInfo mTmpFrames.miuiFreeFormStackInfo: null
+I/PowerHalMgrImpl(27289): hdl:180408, pid:27289 
+I/PowerHalMgrImpl(27289): hdl:180408, pid:27289 
+I/HandWritingStubImpl(27289): setCurrentKeyboardType: 1
+I/MIUIInput(27289): [MotionEvent] ViewRootImpl windowName 'com.dropvid.app/com.dropvid.app.MainActivity', { action=ACTION_UP, id[0]=0, pointerCount=1, eventTime=142443941, downTime=142443502, phoneEventTime=06:01:04.486 } moveCount:66
+I/PowerHalMgrImpl(27289): hdl:180410, pid:27289 
+I/MIUIInput(27289): [MotionEvent] ViewRootImpl windowName 'com.dropvid.app/com.dropvid.app.MainActivity', { action=ACTION_DOWN, id[0]=0, pointerCount=1, eventTime=142444592, downTime=142444592, phoneEventTime=06:01:05.137 } moveCount:0
+D/VRI[MainActivity](27289): getMiuiFreeformStackInfo mTmpFrames.miuiFreeFormStackInfo: null
+I/HandWritingStubImpl(27289): setCurrentKeyboardType: 1
+I/MIUIInput(27289): [MotionEvent] ViewRootImpl windowName 'com.dropvid.app/com.dropvid.app.MainActivity', { action=ACTION_UP, id[0]=0, pointerCount=1, eventTime=142444690, downTime=142444592, phoneEventTime=06:01:05.235 } moveCount:0
+I/MIUIInput(27289): [MotionEvent] ViewRootImpl windowName 'com.dropvid.app/com.dropvid.app.MainActivity', { action=ACTION_DOWN, id[0]=0, pointerCount=1, eventTime=142448345, downTime=142448345, phoneEventTime=06:01:08.890 } moveCount:0
+D/VRI[MainActivity](27289): getMiuiFreeformStackInfo mTmpFrames.miuiFreeFormStackInfo: null
+I/MIUIInput(27289): [MotionEvent] ViewRootImpl windowName 'com.dropvid.app/com.dropvid.app.MainActivity', { action=ACTION_CANCEL, id[0]=0, id[1]=1, id[2]=2, pointerCount=3, eventTime=142448362, downTime=142448345, phoneEventTime=06:01:08.906 } moveCount:0
+I/MIUIInput(27289): [MotionEvent] ViewRootImpl windowName 'com.dropvid.app/com.dropvid.app.MainActivity', { action=ACTION_DOWN, id[0]=0, pointerCount=1, eventTime=142526403, downTime=142526403, phoneEventTime=06:02:26.948 } moveCount:0
+D/VRI[MainActivity](27289): getMiuiFreeformStackInfo mTmpFrames.miuiFreeFormStackInfo: null
+I/PowerHalMgrImpl(27289): hdl:180424, pid:27289 
+I/PowerHalMgrImpl(27289): hdl:180425, pid:27289 
+I/HandWritingStubImpl(27289): setCurrentKeyboardType: 1
+I/MIUIInput(27289): [MotionEvent] ViewRootImpl windowName 'com.dropvid.app/com.dropvid.app.MainActivity', { action=ACTION_UP, id[0]=0, pointerCount=1, eventTime=142526626, downTime=142526403, phoneEventTime=06:02:27.171 } moveCount:21
+I/ScrollIdentify(27289): on fling
+I/PowerHalMgrImpl(27289): hdl:180428, pid:27289 
+I/MIUIInput(27289): [MotionEvent] ViewRootImpl windowName 'com.dropvid.app/com.dropvid.app.MainActivity', { action=ACTION_DOWN, id[0]=0, pointerCount=1, eventTime=142527002, downTime=142527002, phoneEventTime=06:02:27.547 } moveCount:0
+D/VRI[MainActivity](27289): getMiuiFreeformStackInfo mTmpFrames.miuiFreeFormStackInfo: null
+I/PowerHalMgrImpl(27289): hdl:180434, pid:27289 
+I/PowerHalMgrImpl(27289): hdl:180434, pid:27289 
+I/HandWritingStubImpl(27289): setCurrentKeyboardType: 1
+I/MIUIInput(27289): [MotionEvent] ViewRootImpl windowName 'com.dropvid.app/com.dropvid.app.MainActivity', { action=ACTION_UP, id[0]=0, pointerCount=1, eventTime=142527168, downTime=142527002, phoneEventTime=06:02:27.713 } moveCount:28
+I/ScrollIdentify(27289): on fling
+I/PowerHalMgrImpl(27289): hdl:180436, pid:27289 
+I/MIUIInput(27289): [MotionEvent] ViewRootImpl windowName 'com.dropvid.app/com.dropvid.app.MainActivity', { action=ACTION_DOWN, id[0]=0, pointerCount=1, eventTime=142527827, downTime=142527827, phoneEventTime=06:02:28.372 } moveCount:0
+D/VRI[MainActivity](27289): getMiuiFreeformStackInfo mTmpFrames.miuiFreeFormStackInfo: null
+I/PowerHalMgrImpl(27289): hdl:180443, pid:27289 
+I/PowerHalMgrImpl(27289): hdl:180444, pid:27289 
+I/HandWritingStubImpl(27289): setCurrentKeyboardType: 1
+I/MIUIInput(27289): [MotionEvent] ViewRootImpl windowName 'com.dropvid.app/com.dropvid.app.MainActivity', { action=ACTION_UP, id[0]=0, pointerCount=1, eventTime=142528151, downTime=142527827, phoneEventTime=06:02:28.696 } moveCount:66
+I/ScrollIdentify(27289): on fling
+I/PowerHalMgrImpl(27289): hdl:180448, pid:27289 
+I/PowerHalMgrImpl(27289): hdl:180450, pid:27289 
+I/MIUIInput(27289): [MotionEvent] ViewRootImpl windowName 'com.dropvid.app/com.dropvid.app.MainActivity', { action=ACTION_DOWN, id[0]=0, pointerCount=1, eventTime=142528901, downTime=142528901, phoneEventTime=06:02:29.446 } moveCount:0
+D/VRI[MainActivity](27289): getMiuiFreeformStackInfo mTmpFrames.miuiFreeFormStackInfo: null
+I/HandWritingStubImpl(27289): setCurrentKeyboardType: 1
+I/MIUIInput(27289): [MotionEvent] ViewRootImpl windowName 'com.dropvid.app/com.dropvid.app.MainActivity', { action=ACTION_UP, id[0]=0, pointerCount=1, eventTime=142528950, downTime=142528901, phoneEventTime=06:02:29.495 } moveCount:1
+I/MIUIInput(27289): [MotionEvent] ViewRootImpl windowName 'com.dropvid.app/com.dropvid.app.MainActivity', { action=ACTION_DOWN, id[0]=0, pointerCount=1, eventTime=142530479, downTime=142530479, phoneEventTime=06:02:31.024 } moveCount:0
+D/VRI[MainActivity](27289): getMiuiFreeformStackInfo mTmpFrames.miuiFreeFormStackInfo: null
+I/HandWritingStubImpl(27289): setCurrentKeyboardType: 1
+I/MIUIInput(27289): [MotionEvent] ViewRootImpl windowName 'com.dropvid.app/com.dropvid.app.MainActivity', { action=ACTION_UP, id[0]=0, pointerCount=1, eventTime=142530544, downTime=142530479, phoneEventTime=06:02:31.089 } moveCount:0
+I/MIUIInput(27289): [MotionEvent] ViewRootImpl windowName 'com.dropvid.app/com.dropvid.app.MainActivity', { action=ACTION_DOWN, id[0]=0, pointerCount=1, eventTime=142531015, downTime=142531015, phoneEventTime=06:02:31.560 } moveCount:0
+D/VRI[MainActivity](27289): getMiuiFreeformStackInfo mTmpFrames.miuiFreeFormStackInfo: null
+I/HandWritingStubImpl(27289): setCurrentKeyboardType: 1
+I/MIUIInput(27289): [MotionEvent] ViewRootImpl windowName 'com.dropvid.app/com.dropvid.app.MainActivity', { action=ACTION_UP, id[0]=0, pointerCount=1, eventTime=142531067, downTime=142531015, phoneEventTime=06:02:31.612 } moveCount:1
+I/MIUIInput(27289): [MotionEvent] ViewRootImpl windowName 'com.dropvid.app/com.dropvid.app.MainActivity', { action=ACTION_DOWN, id[0]=0, pointerCount=1, eventTime=142531989, downTime=142531989, phoneEventTime=06:02:32.534 } moveCount:0
+D/VRI[MainActivity](27289): getMiuiFreeformStackInfo mTmpFrames.miuiFreeFormStackInfo: null
+I/PowerHalMgrImpl(27289): hdl:180462, pid:27289 
+I/PowerHalMgrImpl(27289): hdl:180462, pid:27289 
+I/HandWritingStubImpl(27289): setCurrentKeyboardType: 1
+I/MIUIInput(27289): [MotionEvent] ViewRootImpl windowName 'com.dropvid.app/com.dropvid.app.MainActivity', { action=ACTION_UP, id[0]=0, pointerCount=1, eventTime=142532067, downTime=142531989, phoneEventTime=06:02:32.612 } moveCount:9
+I/ScrollIdentify(27289): on fling
+I/PowerHalMgrImpl(27289): hdl:180469, pid:27289 
+I/MIUIInput(27289): [MotionEvent] ViewRootImpl windowName 'com.dropvid.app/com.dropvid.app.MainActivity', { action=ACTION_DOWN, id[0]=0, pointerCount=1, eventTime=142532705, downTime=142532705, phoneEventTime=06:02:33.250 } moveCount:0
+D/VRI[MainActivity](27289): getMiuiFreeformStackInfo mTmpFrames.miuiFreeFormStackInfo: null
+I/PowerHalMgrImpl(27289): hdl:180472, pid:27289 
+I/PowerHalMgrImpl(27289): hdl:180472, pid:27289 
+I/HandWritingStubImpl(27289): setCurrentKeyboardType: 1
+I/MIUIInput(27289): [MotionEvent] ViewRootImpl windowName 'com.dropvid.app/com.dropvid.app.MainActivity', { action=ACTION_UP, id[0]=0, pointerCount=1, eventTime=142532821, downTime=142532705, phoneEventTime=06:02:33.366 } moveCount:18
+I/ScrollIdentify(27289): on fling
+I/PowerHalMgrImpl(27289): hdl:180475, pid:27289 
+I/PowerHalMgrImpl(27289): hdl:180480, pid:27289 
+I/MIUIInput(27289): [MotionEvent] ViewRootImpl windowName 'com.dropvid.app/com.dropvid.app.MainActivity', { action=ACTION_DOWN, id[0]=0, pointerCount=1, eventTime=142536357, downTime=142536357, phoneEventTime=06:02:36.902 } moveCount:0
+D/VRI[MainActivity](27289): getMiuiFreeformStackInfo mTmpFrames.miuiFreeFormStackInfo: null
+I/HandWritingStubImpl(27289): setCurrentKeyboardType: 1
+I/MIUIInput(27289): [MotionEvent] ViewRootImpl windowName 'com.dropvid.app/com.dropvid.app.MainActivity', { action=ACTION_UP, id[0]=0, pointerCount=1, eventTime=142536364, downTime=142536357, phoneEventTime=06:02:36.909 } moveCount:0
+I/MIUIInput(27289): [MotionEvent] ViewRootImpl windowName 'com.dropvid.app/com.dropvid.app.MainActivity', { action=ACTION_DOWN, id[0]=0, pointerCount=1, eventTime=142537389, downTime=142537389, phoneEventTime=06:02:37.934 } moveCount:0
+D/VRI[MainActivity](27289): getMiuiFreeformStackInfo mTmpFrames.miuiFreeFormStackInfo: null
+I/HandWritingStubImpl(27289): setCurrentKeyboardType: 1
+I/MIUIInput(27289): [MotionEvent] ViewRootImpl windowName 'com.dropvid.app/com.dropvid.app.MainActivity', { action=ACTION_UP, id[0]=0, pointerCount=1, eventTime=142537495, downTime=142537389, phoneEventTime=06:02:38.039 } moveCount:0
+I/MIUIInput(27289): [MotionEvent] ViewRootImpl windowName 'com.dropvid.app/com.dropvid.app.MainActivity', { action=ACTION_DOWN, id[0]=0, pointerCount=1, eventTime=142537817, downTime=142537817, phoneEventTime=06:02:38.362 } moveCount:0
+D/VRI[MainActivity](27289): getMiuiFreeformStackInfo mTmpFrames.miuiFreeFormStackInfo: null
+I/HandWritingStubImpl(27289): setCurrentKeyboardType: 1
+I/MIUIInput(27289): [MotionEvent] ViewRootImpl windowName 'com.dropvid.app/com.dropvid.app.MainActivity', { action=ACTION_UP, id[0]=0, pointerCount=1, eventTime=142537874, downTime=142537817, phoneEventTime=06:02:38.418 } moveCount:0
+I/HandWritingStubImpl(27289): refreshLastKeyboardType: 1
+I/HandWritingStubImpl(27289): getCurrentKeyboardType: 1
+D/InsetsController(27289): hide(ime(), fromIme=false)
+I/ImeTracker(27289): com.dropvid.app:9d101b6d: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+D/VRI[MainActivity](27289): visibilityChanged oldVisibility=true newVisibility=false
+D/BLASTBufferQueue(27289): [439402f SurfaceView[com.dropvid.app/com.dropvid.app.MainActivity]#3](f:0,a:2) destructor()
+D/BufferQueueConsumer(27289): [439402f SurfaceView[com.dropvid.app/com.dropvid.app.MainActivity]#3(BLAST Consumer)3](id:6a9900000003,api:0,p:-1,c:27289) disconnect
+D/ViewRootImplStubImpl(27289): onSurfaceViewDetached:
+D/ViewRootImplStubImpl(27289): , vri:android.view.ViewRootImpl@bb1afc5, com.dropvid.app/com.dropvid.app.MainActivity
+D/ViewRootImplStubImpl(27289): , vri size:1080x2400
+D/ViewRootImplStubImpl(27289): , surfaceView:io.flutter.embedding.android.FlutterSurfaceView{439402f V.E...... ........ 0,0-1080,2400}, SurfaceView[com.dropvid.app/com.dropvid.app.MainActivity]
+D/ViewRootImplStubImpl(27289): , surfaceView size:1080x2400
+D/ViewRootImplStubImpl(27289): , surfaceControl:Surface(name=439402f SurfaceView[com.dropvid.app/com.dropvid.app.MainActivity](BLAST)#73832)/@0x33e0471
+W/BpBinder(27289): PerfMonitor binderTransact: time=272ms interface=android.view.IWindowSession code=5
+W/com.dropvid.app(27289): Binder 0xb4000073dc624fc0 destroyed after setInheritRt before being parceled.
+D/BLASTBufferQueue(27289): [VRI[MainActivity]#2](f:0,a:2) destructor()
+D/BufferQueueConsumer(27289): [VRI[MainActivity]#2(BLAST Consumer)2](id:6a9900000002,api:0,p:-1,c:27289) disconnect
+D/FlutterJNI(27289): Sending viewport metrics to the engine.
+W/BpBinder(27289): PerfMonitor binderTransact: time=447ms interface=android.app.IActivityClientController code=5
+Lost connection to device.

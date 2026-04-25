@@ -1,0 +1,30 @@
+FROM python:3.12-slim
+
+WORKDIR /app
+
+# Install system deps — ffmpeg for merging, aria2 for fast parallel downloads
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    ffmpeg \
+    aria2 \
+    curl \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install Python deps
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy app code
+COPY app/ app/
+
+# Create downloads directory
+RUN mkdir -p /app/downloads
+
+# Run Celery worker
+# -c 4 = 4 concurrent tasks per container
+# -l INFO = info-level logging
+# --max-tasks-per-child=50 = restart child after 50 tasks (prevent memory leaks)
+CMD ["celery", "-A", "app.worker.celery_app:celery_app", "worker", \
+     "--loglevel=INFO", \
+     "--concurrency=4", \
+     "--max-tasks-per-child=50", \
+     "-Q", "celery"]
