@@ -146,6 +146,9 @@ def _download_worker(job_id: str, url: str, quality: str, fmt: str):
         "format": _get_format_string(quality, fmt),
         "outtmpl": output_template,
         "merge_output_format": "mp4" if fmt == "video" else None,
+        "extractor_args": {
+            "youtube": ["player_client=android"]
+        },
         "concurrent_fragment_downloads": 8,
         "retries": 5,
         "fragment_retries": 10,

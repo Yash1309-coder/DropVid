@@ -99,6 +99,9 @@ def download_video(self: Task, url: str, quality: str, fmt: str) -> dict:
         "format": _get_format_string(quality, fmt),
         "outtmpl": output_template,
         "merge_output_format": "mp4" if fmt == "video" else None,
+        "extractor_args": {
+            "youtube": ["player_client=android"]
+        },
 
         # ── Speed: aria2c external downloader ──
         # aria2c opens multiple connections per file = massive speed boost
