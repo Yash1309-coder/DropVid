@@ -71,6 +71,8 @@ def download_video(self: Task, url: str, quality: str, fmt: str) -> dict:
 
     # Progress hook — called by yt-dlp during download
     def progress_hook(d):
+        title = d.get("info_dict", {}).get("title", d.get("filename", "Unknown"))
+        
         if d["status"] == "downloading":
             total = d.get("total_bytes") or d.get("total_bytes_estimate") or 0
             downloaded = d.get("downloaded_bytes", 0)
@@ -82,7 +84,7 @@ def download_video(self: Task, url: str, quality: str, fmt: str) -> dict:
             _update_progress(job_id, {
                 "status": "downloading",
                 "progress": pct,
-                "title": d.get("filename", ""),
+                "title": title,
                 "speed": d.get("speed"),
                 "eta": d.get("eta"),
             })
@@ -91,7 +93,7 @@ def download_video(self: Task, url: str, quality: str, fmt: str) -> dict:
             _update_progress(job_id, {
                 "status": "merging",
                 "progress": 95.0,
-                "title": d.get("filename", ""),
+                "title": title,
             })
 
     # yt-dlp options — MAXIMUM SPEED with aria2c external downloader
@@ -149,18 +151,19 @@ def download_video(self: Task, url: str, quality: str, fmt: str) -> dict:
 
     try:
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
-            # Extract info first (for title and metadata)
-            info = ydl.extract_info(url, download=False)
-            title = info.get("title", "Unknown")
-
+            # Immediately signal that extraction has started
+            # This is read by Flutter's polling loop within 2s
             _update_progress(job_id, {
-                "status": "downloading",
+                "status": "extracting",
                 "progress": 0.0,
-                "title": title,
+                "title": "Fetching video info...",
             })
 
-            # Perform the download
-            ydl.download([url])
+            # Single-pass extraction and download!
+            # Using extract_info(download=True) prevents yt-dlp from fetching the 
+            # entire video manifest twice, halving the pre-download delay time.
+            info = ydl.extract_info(url, download=True)
+            title = info.get("title", "Unknown")
 
         # Find the output file
         ext = "m4a" if fmt == "audio" else "mp4"

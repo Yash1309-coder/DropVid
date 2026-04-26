@@ -10,6 +10,7 @@ class CobaltApiService {
     required String url,
     String quality = '1080',
     bool isAudioOnly = false,
+    void Function(String status, double progress, String? title)? onProgress,
   }) async {
     String lastError = 'All servers are unavailable. Try again later.';
 

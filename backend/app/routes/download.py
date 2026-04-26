@@ -91,7 +91,12 @@ async def get_status(job_id: str):
             progress = progress_data.get("progress", 0.0)
             title = progress_data.get("title")
             status_str = progress_data.get("status", "downloading")
-            status = JobStatus.MERGING if status_str == "merging" else JobStatus.DOWNLOADING
+            if status_str == "extracting":
+                status = JobStatus.EXTRACTING
+            elif status_str == "merging":
+                status = JobStatus.MERGING
+            else:
+                status = JobStatus.DOWNLOADING
         else:
             status = JobStatus.DOWNLOADING
 

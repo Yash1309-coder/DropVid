@@ -2,7 +2,10 @@
 /// Core domain entity representing a download
 enum DownloadStatus {
   queued,
-  downloading,
+  resolving,    // URL being resolved — "Finding video…"
+  fetching,     // Server-side download in progress — "Preparing…"
+  merging,      // FFmpeg merge/post-processing — "Almost done…"
+  downloading,  // Actual file transfer to device
   completed,
   failed,
   cancelled,

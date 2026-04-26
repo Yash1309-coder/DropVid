@@ -211,10 +211,15 @@ class ActiveDownloadNotifier extends StateNotifier<ActiveDownloadState> {
     _ref.read(downloadsProvider.notifier).addItem(item);
 
     // Start foreground service so download survives background
-    await ForegroundDownloadService.startService(title: 'Downloading from $platform...');
+    await ForegroundDownloadService.startService(title: 'Finding video on $platform...');
 
     try {
       // Step 1: Resolve URL — route YouTube to self-hosted backend, others to Cobalt
+      // Set resolving status so UI shows "Finding video…" instead of 0%
+      item = item.copyWith(status: DownloadStatus.resolving);
+      state = ActiveDownloadState(isDownloading: true, currentItem: item);
+      _ref.read(downloadsProvider.notifier).updateItem(item);
+
       final isYouTube = AppConfig.kYouTubeEnabled && PlatformDetector.isYouTube(url);
       final dynamic apiService;
       if (isYouTube) {
@@ -222,10 +227,40 @@ class ActiveDownloadNotifier extends StateNotifier<ActiveDownloadState> {
       } else {
         apiService = _ref.read(cobaltApiProvider);
       }
+
       final response = await apiService.resolveUrl(
         url: url,
         quality: quality,
         isAudioOnly: isAudioOnly,
+        onProgress: (String status, double progress, String? title) {
+          // Map backend status strings to our DownloadStatus enum
+          final DownloadStatus uiStatus;
+          final String notifTitle;
+          switch (status) {
+            case 'extracting':
+              uiStatus = DownloadStatus.resolving;
+              notifTitle = title ?? 'Fetching video info...';
+            case 'downloading':
+              uiStatus = DownloadStatus.fetching;
+              notifTitle = title ?? 'Server downloading...';
+            case 'merging':
+              uiStatus = DownloadStatus.merging;
+              notifTitle = title ?? 'Merging streams...';
+            default:
+              uiStatus = DownloadStatus.resolving;
+              notifTitle = 'Preparing download...';
+          }
+          item = item.copyWith(
+            status: uiStatus,
+            progress: progress / 100, // Backend sends 0-100, we use 0.0-1.0
+          );
+          state = ActiveDownloadState(isDownloading: true, currentItem: item);
+          _ref.read(downloadsProvider.notifier).updateItem(item);
+          ForegroundDownloadService.updateProgress(
+            title: notifTitle,
+            progress: progress / 100,
+          );
+        },
       );
 
       if (response.isError) {
@@ -251,7 +286,16 @@ class ActiveDownloadNotifier extends StateNotifier<ActiveDownloadState> {
         return;
       }
 
-      // Step 2: Download the file
+      // Step 2: Download the file to device
+      // Transition to 'downloading' — actual file transfer begins
+      item = item.copyWith(status: DownloadStatus.downloading, progress: 0);
+      state = ActiveDownloadState(isDownloading: true, currentItem: item);
+      _ref.read(downloadsProvider.notifier).updateItem(item);
+      ForegroundDownloadService.updateProgress(
+        title: 'Downloading from $platform',
+        progress: 0,
+      );
+
       _cancelToken = CancelToken();
       final downloadService = _ref.read(downloadServiceProvider);
 

@@ -164,25 +164,62 @@ class _HomeScreenState extends ConsumerState<HomeScreen>
     });
   }
 
+  /// Status label for pre-download phases
+  String _statusLabel(DownloadItem item) {
+    switch (item.status) {
+      case DownloadStatus.resolving:
+        return 'Finding video…';
+      case DownloadStatus.fetching:
+        return 'Server downloading ${(item.progress * 100).toStringAsFixed(0)}%';
+      case DownloadStatus.merging:
+        return 'Merging streams…';
+      case DownloadStatus.downloading:
+        return '${(item.progress * 100).toStringAsFixed(0)}%';
+      default:
+        return '${(item.progress * 100).toStringAsFixed(0)}%';
+    }
+  }
+
   Widget _buildSphereProgress(DownloadItem item) {
+    final isPreDownload = item.status == DownloadStatus.resolving ||
+        item.status == DownloadStatus.fetching ||
+        item.status == DownloadStatus.merging;
+
     return Column(mainAxisAlignment: MainAxisAlignment.center, children: [
       SizedBox(width: 48, height: 48, child: CircularProgressIndicator(
-        value: item.progress > 0 ? item.progress : null,
+        // Show indeterminate spinner during resolving/merging, determinate during fetching/downloading
+        value: (item.status == DownloadStatus.resolving || item.status == DownloadStatus.merging)
+            ? null
+            : (item.progress > 0 ? item.progress : null),
         color: AppColors.secondary, backgroundColor: AppColors.primary.withValues(alpha: 0.1), strokeWidth: 2)),
       const SizedBox(height: 8),
-      Text('${(item.progress * 100).toStringAsFixed(0)}%',
-        style: AppTypography.labelSmall.copyWith(color: AppColors.secondary)),
+      Text(
+        isPreDownload ? _statusLabel(item) : '${(item.progress * 100).toStringAsFixed(0)}%',
+        style: AppTypography.labelSmall.copyWith(color: AppColors.secondary, fontSize: isPreDownload ? 9 : 12),
+        textAlign: TextAlign.center,
+      ),
     ]);
   }
 
   Widget _buildProgressIndicator(DownloadItem item) {
+    final isPreDownload = item.status == DownloadStatus.resolving ||
+        item.status == DownloadStatus.fetching ||
+        item.status == DownloadStatus.merging;
+
     return Padding(padding: const EdgeInsets.symmetric(horizontal: 40),
       child: Column(children: [
-        Text(item.fileName, style: AppTypography.fileName.copyWith(fontSize: 14), overflow: TextOverflow.ellipsis),
+        // Show status label during pre-download, filename during actual download
+        Text(
+          isPreDownload ? _statusLabel(item) : item.fileName,
+          style: AppTypography.fileName.copyWith(fontSize: 14),
+          overflow: TextOverflow.ellipsis,
+        ),
         const SizedBox(height: 8),
         ClipRRect(borderRadius: BorderRadius.circular(2),
           child: SizedBox(height: 2, child: LinearProgressIndicator(
-            value: item.progress > 0 ? item.progress : null,
+            value: (item.status == DownloadStatus.resolving || item.status == DownloadStatus.merging)
+                ? null // Indeterminate
+                : (item.progress > 0 ? item.progress : null),
             color: AppColors.secondary, backgroundColor: AppColors.primary.withValues(alpha: 0.1)))),
         const SizedBox(height: 8),
         Row(mainAxisAlignment: MainAxisAlignment.center, children: [

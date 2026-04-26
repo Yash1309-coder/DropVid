@@ -8,7 +8,7 @@ class AppConfig {
   /// Full APK build: true
   static const bool kYouTubeEnabled = bool.fromEnvironment(
     'YOUTUBE_ENABLED',
-    defaultValue: false,
+    defaultValue: true,
   );
 
   /// App version

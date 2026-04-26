@@ -21,6 +21,7 @@ class DownloadFormat(str, Enum):
 class JobStatus(str, Enum):
     """Lifecycle states of a download job."""
     QUEUED = "queued"
+    EXTRACTING = "extracting"
     DOWNLOADING = "downloading"
     MERGING = "merging"
     COMPLETED = "completed"

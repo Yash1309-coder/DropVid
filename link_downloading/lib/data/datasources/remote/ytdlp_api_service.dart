@@ -83,10 +83,14 @@ class YtDlpApiService {
   /// Resolve a YouTube URL to a direct download link.
   /// This polls until the download completes, then returns a CobaltResponse
   /// compatible with the existing download pipeline.
+  ///
+  /// [onProgress] is called during polling with backend status, progress (0-100),
+  /// and video title — use this to update the UI during server-side processing.
   Future<CobaltResponse> resolveUrl({
     required String url,
     String quality = '1080',
     bool isAudioOnly = false,
+    void Function(String status, double progress, String? title)? onProgress,
   }) async {
     // Submit the download job
     final job = await submitDownload(
@@ -108,16 +112,23 @@ class YtDlpApiService {
       );
     }
 
-    // Poll for completion
+    // Poll for completion — 2s intervals for fast UI feedback
     final jobId = job.jobId;
     int attempts = 0;
-    const maxAttempts = 360; // 30 minutes at 5s intervals
+    const maxAttempts = 900; // 30 minutes at 2s intervals
 
     while (attempts < maxAttempts) {
-      await Future.delayed(const Duration(seconds: 5));
+      await Future.delayed(const Duration(seconds: 2));
       attempts++;
 
       final status = await getStatus(jobId);
+
+      // Surface backend progress to the UI
+      onProgress?.call(
+        status.status,
+        status.progress,
+        status.title,
+      );
 
       if (status.status == 'completed' && status.fileId != null) {
         return CobaltResponse(
@@ -133,7 +144,7 @@ class YtDlpApiService {
         );
       }
 
-      // Still downloading/merging — continue polling
+      // Still downloading/merging/extracting — continue polling
     }
 
     return CobaltResponse(status: 'error', error: 'Download timed out');

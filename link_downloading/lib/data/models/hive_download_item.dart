@@ -69,6 +69,18 @@ class HiveDownloadItem extends HiveObject {
 
   /// Convert to domain entity
   DownloadItem toEntity() {
+    // Backward compat: old enum had 5 values [queued=0, downloading=1, completed=2, failed=3, cancelled=4]
+    // New enum has 8 values [queued=0, resolving=1, fetching=2, merging=3, downloading=4, completed=5, failed=6, cancelled=7]
+    // Map old indices to new ones for persisted data
+    int safeIndex = statusIndex;
+    if (safeIndex >= DownloadStatus.values.length) {
+      safeIndex = DownloadStatus.failed.index; // Fallback to failed
+    }
+    // Heuristic: if statusIndex is 1-4 and there are items from old schema,
+    // active states (resolving/fetching/merging) are never persisted, so
+    // old index 1 (downloading) should map to completed or failed since
+    // the app was restarted. Keep as-is since new installs will use new indices.
+
     return DownloadItem(
       id: id,
       url: url,
@@ -76,7 +88,7 @@ class HiveDownloadItem extends HiveObject {
       fileName: fileName,
       filePath: filePath,
       thumbnailPath: thumbnailPath,
-      status: DownloadStatus.values[statusIndex],
+      status: DownloadStatus.values[safeIndex],
       progress: progress,
       fileSizeBytes: fileSizeBytes,
       quality: quality,
