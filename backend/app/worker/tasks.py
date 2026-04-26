@@ -102,7 +102,7 @@ def download_video(self: Task, url: str, quality: str, fmt: str) -> dict:
         "outtmpl": output_template,
         "merge_output_format": "mp4" if fmt == "video" else None,
         "extractor_args": {
-            "youtube": ["player_client=android"]
+            "youtube": ["player_client=ios,web"]
         },
 
         # ── Speed: aria2c external downloader ──
@@ -117,7 +117,7 @@ def download_video(self: Task, url: str, quality: str, fmt: str) -> dict:
                 "--file-allocation=none",    # Skip pre-allocation (faster start)
                 "--optimize-concurrent-downloads=true",
                 "--auto-file-renaming=false",
-                "--summary-interval=0",      # No summary output
+                "--summary-interval=1",      # 1-second summary output for progress hook
             ],
         },
 
@@ -133,9 +133,9 @@ def download_video(self: Task, url: str, quality: str, fmt: str) -> dict:
 
         # ── Callbacks ──
         "progress_hooks": [progress_hook],
-        "quiet": True,
+        "quiet": False,
         "no_warnings": True,
-        "noprogress": True,
+        "noprogress": False,
 
         # Postprocessors
         "postprocessors": [],
